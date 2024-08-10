@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "cover_img": "confidential.jpg",
+      "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png",
       "description": "Gateway untuk Sabre",
       "external_link": "www.travelagent.co.id",
       "github_link": "",
@@ -18,7 +18,7 @@
       "type": "Gateway"
     },
     {
-      "cover_img": "confidential.jpg",
+      "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png",
       "description": "Gateway untuk pesawat SQ Singapore",
       "external_link": "www.travelagent.co.id",
       "github_link": "",
@@ -35,7 +35,7 @@
       "type": "Gateway"
     },
     {
-      "cover_img": "confidential.jpg",
+      "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png",
       "description": "Gateway untuk pesawat 8B TransNusa",
       "external_link": "www.travelagent.co.id",
       "github_link": "",
@@ -52,7 +52,7 @@
       "type": "Gateway"
     },
     {
-      "cover_img": "confidential.jpg",
+      "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png",
       "description": "Services untuk pesawat terbang",
       "external_link": "www.travelagent.co.id",
       "github_link": "",
@@ -70,7 +70,7 @@
       "type": "Services"
     },
     {
-      "cover_img": "confidential.jpg",
+      "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png",
       "description": "Services untuk hotel",
       "external_link": "www.travelagent.co.id",
       "github_link": "",
@@ -88,7 +88,7 @@
       "type": "Services"
     },
     {
-      "cover_img": "confidential.jpg",
+      "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png",
       "description": "Translokasi untuk data pesawat terbang",
       "external_link": "www.travelagent.co.id",
       "github_link": "",
@@ -107,7 +107,7 @@
       "type": "Services"
     },
     {
-      "cover_img": "confidential.jpg",
+      "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png",
       "description": "Services untuk Kereta Api",
       "external_link": "www.travelagent.co.id",
       "github_link": "",
@@ -123,7 +123,7 @@
       "type": "Services"
     },
     {
-      "cover_img": "available.jpg",
+      "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/obreus_droid.png",
       "description": "Proyek akhir skripsi",
       "external_link": "",
       "github_link": "",
@@ -137,7 +137,7 @@
       "type": "Application"
     },
     {
-      "cover_img": "available.jpg",
+      "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/make_a_good_excel_reader.png",
       "description": "Proyek akhir magang",
       "external_link": "",
       "github_link": "",
@@ -156,7 +156,7 @@
       "type": "Websites"
     },
     {
-      "cover_img": "available.jpg",
+      "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/discite_institute.png",
       "description": "Proyek akhir proyek konsultan",
       "external_link": "",
       "github_link": "",
@@ -172,7 +172,7 @@
       "type": "Websites"
     },
     {
-      "cover_img": "available.jpg",
+      "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/susmatior.png",
       "description": "Proyek capstone Kampus Merdeka (Dicoding Indonesia)",
       "external_link": "",
       "github_link": "https://github.com/fajarmuhamad616/CSD104_SUSMATIOR",
@@ -188,7 +188,7 @@
       "type": "Application"
     },
     {
-      "cover_img": "available.jpg",
+      "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/kabima.png",
       "description": "Proyek akhir pemrograman berorientasi objek",
       "external_link": "",
       "github_link": "https://github.com/fajarmuhamad616/Kabima",
@@ -206,7 +206,7 @@
       "type": "Application"
     },
     {
-      "cover_img": "available.jpg",
+      "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/lapif.png",
       "description": "Proyek akhir pemrograman web",
       "external_link": "https://lapif.netlify.app",
       "github_link": "https://github.com/fajarmuhamad616/LAPIF-Backend",
@@ -225,7 +225,7 @@
       "type": "Websites"
     },
     {
-      "cover_img": "available.jpg",
+      "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/secret_calorie.png",
       "description": "Proyek akhir AMSTR (Aplikasi Matematika, Sains, Teknologi, Rekayasa)",
       "external_link": "https://secretcalorie.github.io/home",
       "github_link": "https://github.com/fajarmuhamad616/SecretCalorie",
@@ -244,7 +244,7 @@
       "type": "Websites"
     },
     {
-      "cover_img": "available.jpg",
+      "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/upicare.png",
       "description": "Proyek akhir MSTR (Matematika, Sains, Teknologi, Rekayasa)",
       "external_link": "",
       "github_link": "",

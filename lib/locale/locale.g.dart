@@ -6,7 +6,7 @@
 /// Locales: 2
 /// Strings: 674 (337 per locale)
 ///
-/// Built on 2024-08-08 at 19:28 UTC
+/// Built on 2024-08-10 at 20:15 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -485,7 +485,7 @@ class _LocaleProjects$projects$0i0$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get cover_img => 'confidential.jpg';
+	String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 	String get description => 'Gateway untuk Sabre';
 	String get external_link => 'www.travelagent.co.id';
 	String get github_link => '';
@@ -510,7 +510,7 @@ class _LocaleProjects$projects$0i1$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get cover_img => 'confidential.jpg';
+	String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 	String get description => 'Gateway untuk pesawat SQ Singapore';
 	String get external_link => 'www.travelagent.co.id';
 	String get github_link => '';
@@ -535,7 +535,7 @@ class _LocaleProjects$projects$0i2$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get cover_img => 'confidential.jpg';
+	String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 	String get description => 'Gateway untuk pesawat 8B TransNusa';
 	String get external_link => 'www.travelagent.co.id';
 	String get github_link => '';
@@ -560,7 +560,7 @@ class _LocaleProjects$projects$0i3$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get cover_img => 'confidential.jpg';
+	String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 	String get description => 'Services untuk pesawat terbang';
 	String get external_link => 'www.travelagent.co.id';
 	String get github_link => '';
@@ -586,7 +586,7 @@ class _LocaleProjects$projects$0i4$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get cover_img => 'confidential.jpg';
+	String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 	String get description => 'Services untuk hotel';
 	String get external_link => 'www.travelagent.co.id';
 	String get github_link => '';
@@ -612,7 +612,7 @@ class _LocaleProjects$projects$0i5$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get cover_img => 'confidential.jpg';
+	String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 	String get description => 'Translokasi untuk data pesawat terbang';
 	String get external_link => 'www.travelagent.co.id';
 	String get github_link => '';
@@ -639,7 +639,7 @@ class _LocaleProjects$projects$0i6$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get cover_img => 'confidential.jpg';
+	String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 	String get description => 'Services untuk Kereta Api';
 	String get external_link => 'www.travelagent.co.id';
 	String get github_link => '';
@@ -663,7 +663,7 @@ class _LocaleProjects$projects$0i7$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get cover_img => 'available.jpg';
+	String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/obreus_droid.png';
 	String get description => 'Proyek akhir skripsi';
 	String get external_link => '';
 	String get github_link => '';
@@ -685,7 +685,7 @@ class _LocaleProjects$projects$0i8$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get cover_img => 'available.jpg';
+	String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/make_a_good_excel_reader.png';
 	String get description => 'Proyek akhir magang';
 	String get external_link => '';
 	String get github_link => '';
@@ -712,7 +712,7 @@ class _LocaleProjects$projects$0i9$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get cover_img => 'available.jpg';
+	String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/discite_institute.png';
 	String get description => 'Proyek akhir proyek konsultan';
 	String get external_link => '';
 	String get github_link => '';
@@ -736,7 +736,7 @@ class _LocaleProjects$projects$0i10$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get cover_img => 'available.jpg';
+	String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/susmatior.png';
 	String get description => 'Proyek capstone Kampus Merdeka (Dicoding Indonesia)';
 	String get external_link => '';
 	String get github_link => 'https://github.com/fajarmuhamad616/CSD104_SUSMATIOR';
@@ -760,7 +760,7 @@ class _LocaleProjects$projects$0i11$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get cover_img => 'available.jpg';
+	String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/kabima.png';
 	String get description => 'Proyek akhir pemrograman berorientasi objek';
 	String get external_link => '';
 	String get github_link => 'https://github.com/fajarmuhamad616/Kabima';
@@ -786,7 +786,7 @@ class _LocaleProjects$projects$0i12$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get cover_img => 'available.jpg';
+	String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/lapif.png';
 	String get description => 'Proyek akhir pemrograman web';
 	String get external_link => 'https://lapif.netlify.app';
 	String get github_link => 'https://github.com/fajarmuhamad616/LAPIF-Backend';
@@ -813,7 +813,7 @@ class _LocaleProjects$projects$0i13$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get cover_img => 'available.jpg';
+	String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/secret_calorie.png';
 	String get description => 'Proyek akhir AMSTR (Aplikasi Matematika, Sains, Teknologi, Rekayasa)';
 	String get external_link => 'https://secretcalorie.github.io/home';
 	String get github_link => 'https://github.com/fajarmuhamad616/SecretCalorie';
@@ -840,7 +840,7 @@ class _LocaleProjects$projects$0i14$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get cover_img => 'available.jpg';
+	String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/upicare.png';
 	String get description => 'Proyek akhir MSTR (Matematika, Sains, Teknologi, Rekayasa)';
 	String get external_link => '';
 	String get github_link => '';
@@ -1438,7 +1438,7 @@ class _LocaleProjects$projects$0i0$En implements _LocaleProjects$projects$0i0$Id
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get cover_img => 'confidential.jpg';
+	@override String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 	@override String get description => 'Gateway for Sabre';
 	@override String get external_link => 'www.travelagent.co.id';
 	@override String get github_link => '';
@@ -1463,7 +1463,7 @@ class _LocaleProjects$projects$0i1$En implements _LocaleProjects$projects$0i1$Id
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get cover_img => 'confidential.jpg';
+	@override String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 	@override String get description => 'Gateway for SQ Singapore Airlines';
 	@override String get external_link => 'www.travelagent.co.id';
 	@override String get github_link => '';
@@ -1488,7 +1488,7 @@ class _LocaleProjects$projects$0i2$En implements _LocaleProjects$projects$0i2$Id
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get cover_img => 'confidential.jpg';
+	@override String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 	@override String get description => 'Gateway for 8B TransNusa Airlines';
 	@override String get external_link => 'www.travelagent.co.id';
 	@override String get github_link => '';
@@ -1513,7 +1513,7 @@ class _LocaleProjects$projects$0i3$En implements _LocaleProjects$projects$0i3$Id
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get cover_img => 'confidential.jpg';
+	@override String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 	@override String get description => 'Services for Airlines';
 	@override String get external_link => 'www.travelagent.co.id';
 	@override String get github_link => '';
@@ -1539,7 +1539,7 @@ class _LocaleProjects$projects$0i4$En implements _LocaleProjects$projects$0i4$Id
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get cover_img => 'confidential.jpg';
+	@override String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 	@override String get description => 'Services for Hotel';
 	@override String get external_link => 'www.travelagent.co.id';
 	@override String get github_link => '';
@@ -1565,7 +1565,7 @@ class _LocaleProjects$projects$0i5$En implements _LocaleProjects$projects$0i5$Id
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get cover_img => 'confidential.jpg';
+	@override String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 	@override String get description => 'Translocation for Airlines Data';
 	@override String get external_link => 'www.travelagent.co.id';
 	@override String get github_link => '';
@@ -1592,7 +1592,7 @@ class _LocaleProjects$projects$0i6$En implements _LocaleProjects$projects$0i6$Id
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get cover_img => 'confidential.jpg';
+	@override String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 	@override String get description => 'Services for Train';
 	@override String get external_link => 'www.travelagent.co.id';
 	@override String get github_link => '';
@@ -1616,7 +1616,7 @@ class _LocaleProjects$projects$0i7$En implements _LocaleProjects$projects$0i7$Id
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get cover_img => 'available.jpg';
+	@override String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/obreus_droid.png';
 	@override String get description => 'Final project for Thesis';
 	@override String get external_link => '';
 	@override String get github_link => '';
@@ -1638,7 +1638,7 @@ class _LocaleProjects$projects$0i8$En implements _LocaleProjects$projects$0i8$Id
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get cover_img => 'available.jpg';
+	@override String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/make_a_good_excel_reader.png';
 	@override String get description => 'Final project of Internship';
 	@override String get external_link => '';
 	@override String get github_link => '';
@@ -1665,7 +1665,7 @@ class _LocaleProjects$projects$0i9$En implements _LocaleProjects$projects$0i9$Id
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get cover_img => 'available.jpg';
+	@override String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/discite_institute.png';
 	@override String get description => 'Final project of course consultant project';
 	@override String get external_link => '';
 	@override String get github_link => '';
@@ -1689,7 +1689,7 @@ class _LocaleProjects$projects$0i10$En implements _LocaleProjects$projects$0i10$
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get cover_img => 'available.jpg';
+	@override String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/susmatior.png';
 	@override String get description => 'Capstone project of Kampus Merdeka (Dicoding Indonesia)';
 	@override String get external_link => '';
 	@override String get github_link => 'https://github.com/fajarmuhamad616/CSD104_SUSMATIOR';
@@ -1713,7 +1713,7 @@ class _LocaleProjects$projects$0i11$En implements _LocaleProjects$projects$0i11$
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get cover_img => 'available.jpg';
+	@override String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/kabima.png';
 	@override String get description => 'Final project of course Object-Oriented Programming';
 	@override String get external_link => '';
 	@override String get github_link => 'https://github.com/fajarmuhamad616/Kabima';
@@ -1739,7 +1739,7 @@ class _LocaleProjects$projects$0i12$En implements _LocaleProjects$projects$0i12$
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get cover_img => 'available.jpg';
+	@override String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/lapif.png';
 	@override String get description => 'Final project of course Web Programming';
 	@override String get external_link => 'https://lapif.netlify.app';
 	@override String get github_link => 'https://github.com/fajarmuhamad616/LAPIF-Backend';
@@ -1766,7 +1766,7 @@ class _LocaleProjects$projects$0i13$En implements _LocaleProjects$projects$0i13$
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get cover_img => 'available.jpg';
+	@override String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/secret_calorie.png';
 	@override String get description => 'Final project of course ASTEM (Application of Sains, Technology, Engineering, Mathematics)';
 	@override String get external_link => 'https://secretcalorie.github.io/home';
 	@override String get github_link => 'https://github.com/fajarmuhamad616/SecretCalorie';
@@ -1793,7 +1793,7 @@ class _LocaleProjects$projects$0i14$En implements _LocaleProjects$projects$0i14$
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get cover_img => 'available.jpg';
+	@override String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/upicare.png';
 	@override String get description => 'Final project of course STEM (Sains, Technology, Engineering, Mathematics)';
 	@override String get external_link => '';
 	@override String get github_link => '';
@@ -2142,7 +2142,7 @@ extension on Translations {
 			case 'general.browse_projects_home_section': return 'Lihat Proyek';
 			case 'general.required_input_field': return 'Bagian ini diperlukan';
 			case 'general.copy': return 'Disalin ke papan klip';
-			case 'projects.projects.0.cover_img': return 'confidential.jpg';
+			case 'projects.projects.0.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 			case 'projects.projects.0.description': return 'Gateway untuk Sabre';
 			case 'projects.projects.0.external_link': return 'www.travelagent.co.id';
 			case 'projects.projects.0.github_link': return '';
@@ -2154,7 +2154,7 @@ extension on Translations {
 			case 'projects.projects.0.tech.2': return 'PostgreSQL';
 			case 'projects.projects.0.tech.3': return 'Jasper Reports';
 			case 'projects.projects.0.type': return 'Gateway';
-			case 'projects.projects.1.cover_img': return 'confidential.jpg';
+			case 'projects.projects.1.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 			case 'projects.projects.1.description': return 'Gateway untuk pesawat SQ Singapore';
 			case 'projects.projects.1.external_link': return 'www.travelagent.co.id';
 			case 'projects.projects.1.github_link': return '';
@@ -2166,7 +2166,7 @@ extension on Translations {
 			case 'projects.projects.1.tech.2': return 'PostgreSQL';
 			case 'projects.projects.1.tech.3': return 'Jasper Reports';
 			case 'projects.projects.1.type': return 'Gateway';
-			case 'projects.projects.2.cover_img': return 'confidential.jpg';
+			case 'projects.projects.2.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 			case 'projects.projects.2.description': return 'Gateway untuk pesawat 8B TransNusa';
 			case 'projects.projects.2.external_link': return 'www.travelagent.co.id';
 			case 'projects.projects.2.github_link': return '';
@@ -2178,7 +2178,7 @@ extension on Translations {
 			case 'projects.projects.2.tech.2': return 'PostgreSQL';
 			case 'projects.projects.2.tech.3': return 'Jasper Reports';
 			case 'projects.projects.2.type': return 'Gateway';
-			case 'projects.projects.3.cover_img': return 'confidential.jpg';
+			case 'projects.projects.3.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 			case 'projects.projects.3.description': return 'Services untuk pesawat terbang';
 			case 'projects.projects.3.external_link': return 'www.travelagent.co.id';
 			case 'projects.projects.3.github_link': return '';
@@ -2191,7 +2191,7 @@ extension on Translations {
 			case 'projects.projects.3.tech.3': return 'Apache Solr';
 			case 'projects.projects.3.tech.4': return 'Elasticsearch';
 			case 'projects.projects.3.type': return 'Services';
-			case 'projects.projects.4.cover_img': return 'confidential.jpg';
+			case 'projects.projects.4.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 			case 'projects.projects.4.description': return 'Services untuk hotel';
 			case 'projects.projects.4.external_link': return 'www.travelagent.co.id';
 			case 'projects.projects.4.github_link': return '';
@@ -2204,7 +2204,7 @@ extension on Translations {
 			case 'projects.projects.4.tech.3': return 'Apache Solr';
 			case 'projects.projects.4.tech.4': return 'Elasticsearch';
 			case 'projects.projects.4.type': return 'Services';
-			case 'projects.projects.5.cover_img': return 'confidential.jpg';
+			case 'projects.projects.5.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 			case 'projects.projects.5.description': return 'Translokasi untuk data pesawat terbang';
 			case 'projects.projects.5.external_link': return 'www.travelagent.co.id';
 			case 'projects.projects.5.github_link': return '';
@@ -2218,7 +2218,7 @@ extension on Translations {
 			case 'projects.projects.5.tech.4': return 'Apache Solr';
 			case 'projects.projects.5.tech.5': return 'Elasticsearch';
 			case 'projects.projects.5.type': return 'Services';
-			case 'projects.projects.6.cover_img': return 'confidential.jpg';
+			case 'projects.projects.6.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 			case 'projects.projects.6.description': return 'Services untuk Kereta Api';
 			case 'projects.projects.6.external_link': return 'www.travelagent.co.id';
 			case 'projects.projects.6.github_link': return '';
@@ -2229,7 +2229,7 @@ extension on Translations {
 			case 'projects.projects.6.tech.1': return 'Spring boot';
 			case 'projects.projects.6.tech.2': return 'PostgreSQL';
 			case 'projects.projects.6.type': return 'Services';
-			case 'projects.projects.7.cover_img': return 'available.jpg';
+			case 'projects.projects.7.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/obreus_droid.png';
 			case 'projects.projects.7.description': return 'Proyek akhir skripsi';
 			case 'projects.projects.7.external_link': return '';
 			case 'projects.projects.7.github_link': return '';
@@ -2238,7 +2238,7 @@ extension on Translations {
 			case 'projects.projects.7.playstore_link': return '';
 			case 'projects.projects.7.tech.0': return 'Bash';
 			case 'projects.projects.7.type': return 'Application';
-			case 'projects.projects.8.cover_img': return 'available.jpg';
+			case 'projects.projects.8.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/make_a_good_excel_reader.png';
 			case 'projects.projects.8.description': return 'Proyek akhir magang';
 			case 'projects.projects.8.external_link': return '';
 			case 'projects.projects.8.github_link': return '';
@@ -2252,7 +2252,7 @@ extension on Translations {
 			case 'projects.projects.8.tech.4': return 'MySQL';
 			case 'projects.projects.8.tech.5': return 'BootStrap';
 			case 'projects.projects.8.type': return 'Websites';
-			case 'projects.projects.9.cover_img': return 'available.jpg';
+			case 'projects.projects.9.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/discite_institute.png';
 			case 'projects.projects.9.description': return 'Proyek akhir proyek konsultan';
 			case 'projects.projects.9.external_link': return '';
 			case 'projects.projects.9.github_link': return '';
@@ -2263,7 +2263,7 @@ extension on Translations {
 			case 'projects.projects.9.tech.1': return 'CMS WordPress';
 			case 'projects.projects.9.tech.2': return 'MySQL';
 			case 'projects.projects.9.type': return 'Websites';
-			case 'projects.projects.10.cover_img': return 'available.jpg';
+			case 'projects.projects.10.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/susmatior.png';
 			case 'projects.projects.10.description': return 'Proyek capstone Kampus Merdeka (Dicoding Indonesia)';
 			case 'projects.projects.10.external_link': return '';
 			case 'projects.projects.10.github_link': return 'https://github.com/fajarmuhamad616/CSD104_SUSMATIOR';
@@ -2274,7 +2274,7 @@ extension on Translations {
 			case 'projects.projects.10.tech.1': return 'Flutter';
 			case 'projects.projects.10.tech.2': return 'Firebase';
 			case 'projects.projects.10.type': return 'Application';
-			case 'projects.projects.11.cover_img': return 'available.jpg';
+			case 'projects.projects.11.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/kabima.png';
 			case 'projects.projects.11.description': return 'Proyek akhir pemrograman berorientasi objek';
 			case 'projects.projects.11.external_link': return '';
 			case 'projects.projects.11.github_link': return 'https://github.com/fajarmuhamad616/Kabima';
@@ -2287,7 +2287,7 @@ extension on Translations {
 			case 'projects.projects.11.tech.3': return 'CSS';
 			case 'projects.projects.11.tech.4': return 'MySQL';
 			case 'projects.projects.11.type': return 'Application';
-			case 'projects.projects.12.cover_img': return 'available.jpg';
+			case 'projects.projects.12.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/lapif.png';
 			case 'projects.projects.12.description': return 'Proyek akhir pemrograman web';
 			case 'projects.projects.12.external_link': return 'https://lapif.netlify.app';
 			case 'projects.projects.12.github_link': return 'https://github.com/fajarmuhamad616/LAPIF-Backend';
@@ -2301,7 +2301,7 @@ extension on Translations {
 			case 'projects.projects.12.tech.4': return 'MySQL';
 			case 'projects.projects.12.tech.5': return 'Figma';
 			case 'projects.projects.12.type': return 'Websites';
-			case 'projects.projects.13.cover_img': return 'available.jpg';
+			case 'projects.projects.13.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/secret_calorie.png';
 			case 'projects.projects.13.description': return 'Proyek akhir AMSTR (Aplikasi Matematika, Sains, Teknologi, Rekayasa)';
 			case 'projects.projects.13.external_link': return 'https://secretcalorie.github.io/home';
 			case 'projects.projects.13.github_link': return 'https://github.com/fajarmuhamad616/SecretCalorie';
@@ -2315,7 +2315,7 @@ extension on Translations {
 			case 'projects.projects.13.tech.4': return 'MySQL';
 			case 'projects.projects.13.tech.5': return 'Figma';
 			case 'projects.projects.13.type': return 'Websites';
-			case 'projects.projects.14.cover_img': return 'available.jpg';
+			case 'projects.projects.14.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/upicare.png';
 			case 'projects.projects.14.description': return 'Proyek akhir MSTR (Matematika, Sains, Teknologi, Rekayasa)';
 			case 'projects.projects.14.external_link': return '';
 			case 'projects.projects.14.github_link': return '';
@@ -2487,7 +2487,7 @@ extension on _LocaleEn {
 			case 'general.browse_projects_home_section': return 'See Projects';
 			case 'general.required_input_field': return 'This field is required';
 			case 'general.copy': return 'Copied to clipboard';
-			case 'projects.projects.0.cover_img': return 'confidential.jpg';
+			case 'projects.projects.0.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 			case 'projects.projects.0.description': return 'Gateway for Sabre';
 			case 'projects.projects.0.external_link': return 'www.travelagent.co.id';
 			case 'projects.projects.0.github_link': return '';
@@ -2499,7 +2499,7 @@ extension on _LocaleEn {
 			case 'projects.projects.0.tech.2': return 'PostgreSQL';
 			case 'projects.projects.0.tech.3': return 'Jasper Reports';
 			case 'projects.projects.0.type': return 'Gateway';
-			case 'projects.projects.1.cover_img': return 'confidential.jpg';
+			case 'projects.projects.1.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 			case 'projects.projects.1.description': return 'Gateway for SQ Singapore Airlines';
 			case 'projects.projects.1.external_link': return 'www.travelagent.co.id';
 			case 'projects.projects.1.github_link': return '';
@@ -2511,7 +2511,7 @@ extension on _LocaleEn {
 			case 'projects.projects.1.tech.2': return 'PostgreSQL';
 			case 'projects.projects.1.tech.3': return 'Jasper Reports';
 			case 'projects.projects.1.type': return 'Gateway';
-			case 'projects.projects.2.cover_img': return 'confidential.jpg';
+			case 'projects.projects.2.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 			case 'projects.projects.2.description': return 'Gateway for 8B TransNusa Airlines';
 			case 'projects.projects.2.external_link': return 'www.travelagent.co.id';
 			case 'projects.projects.2.github_link': return '';
@@ -2523,7 +2523,7 @@ extension on _LocaleEn {
 			case 'projects.projects.2.tech.2': return 'PostgreSQL';
 			case 'projects.projects.2.tech.3': return 'Jasper Reports';
 			case 'projects.projects.2.type': return 'Gateway';
-			case 'projects.projects.3.cover_img': return 'confidential.jpg';
+			case 'projects.projects.3.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 			case 'projects.projects.3.description': return 'Services for Airlines';
 			case 'projects.projects.3.external_link': return 'www.travelagent.co.id';
 			case 'projects.projects.3.github_link': return '';
@@ -2536,7 +2536,7 @@ extension on _LocaleEn {
 			case 'projects.projects.3.tech.3': return 'Apache Solr';
 			case 'projects.projects.3.tech.4': return 'Elasticsearch';
 			case 'projects.projects.3.type': return 'Services';
-			case 'projects.projects.4.cover_img': return 'confidential.jpg';
+			case 'projects.projects.4.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 			case 'projects.projects.4.description': return 'Services for Hotel';
 			case 'projects.projects.4.external_link': return 'www.travelagent.co.id';
 			case 'projects.projects.4.github_link': return '';
@@ -2549,7 +2549,7 @@ extension on _LocaleEn {
 			case 'projects.projects.4.tech.3': return 'Apache Solr';
 			case 'projects.projects.4.tech.4': return 'Elasticsearch';
 			case 'projects.projects.4.type': return 'Services';
-			case 'projects.projects.5.cover_img': return 'confidential.jpg';
+			case 'projects.projects.5.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 			case 'projects.projects.5.description': return 'Translocation for Airlines Data';
 			case 'projects.projects.5.external_link': return 'www.travelagent.co.id';
 			case 'projects.projects.5.github_link': return '';
@@ -2563,7 +2563,7 @@ extension on _LocaleEn {
 			case 'projects.projects.5.tech.4': return 'Apache Solr';
 			case 'projects.projects.5.tech.5': return 'Elasticsearch';
 			case 'projects.projects.5.type': return 'Services';
-			case 'projects.projects.6.cover_img': return 'confidential.jpg';
+			case 'projects.projects.6.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 			case 'projects.projects.6.description': return 'Services for Train';
 			case 'projects.projects.6.external_link': return 'www.travelagent.co.id';
 			case 'projects.projects.6.github_link': return '';
@@ -2574,7 +2574,7 @@ extension on _LocaleEn {
 			case 'projects.projects.6.tech.1': return 'Spring boot';
 			case 'projects.projects.6.tech.2': return 'PostgreSQL';
 			case 'projects.projects.6.type': return 'Services';
-			case 'projects.projects.7.cover_img': return 'available.jpg';
+			case 'projects.projects.7.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/obreus_droid.png';
 			case 'projects.projects.7.description': return 'Final project for Thesis';
 			case 'projects.projects.7.external_link': return '';
 			case 'projects.projects.7.github_link': return '';
@@ -2583,7 +2583,7 @@ extension on _LocaleEn {
 			case 'projects.projects.7.playstore_link': return '';
 			case 'projects.projects.7.tech.0': return 'Bash';
 			case 'projects.projects.7.type': return 'Application';
-			case 'projects.projects.8.cover_img': return 'available.jpg';
+			case 'projects.projects.8.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/make_a_good_excel_reader.png';
 			case 'projects.projects.8.description': return 'Final project of Internship';
 			case 'projects.projects.8.external_link': return '';
 			case 'projects.projects.8.github_link': return '';
@@ -2597,7 +2597,7 @@ extension on _LocaleEn {
 			case 'projects.projects.8.tech.4': return 'MySQL';
 			case 'projects.projects.8.tech.5': return 'BootStrap';
 			case 'projects.projects.8.type': return 'Websites';
-			case 'projects.projects.9.cover_img': return 'available.jpg';
+			case 'projects.projects.9.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/discite_institute.png';
 			case 'projects.projects.9.description': return 'Final project of course consultant project';
 			case 'projects.projects.9.external_link': return '';
 			case 'projects.projects.9.github_link': return '';
@@ -2608,7 +2608,7 @@ extension on _LocaleEn {
 			case 'projects.projects.9.tech.1': return 'CMS WordPress';
 			case 'projects.projects.9.tech.2': return 'MySQL';
 			case 'projects.projects.9.type': return 'Websites';
-			case 'projects.projects.10.cover_img': return 'available.jpg';
+			case 'projects.projects.10.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/susmatior.png';
 			case 'projects.projects.10.description': return 'Capstone project of Kampus Merdeka (Dicoding Indonesia)';
 			case 'projects.projects.10.external_link': return '';
 			case 'projects.projects.10.github_link': return 'https://github.com/fajarmuhamad616/CSD104_SUSMATIOR';
@@ -2619,7 +2619,7 @@ extension on _LocaleEn {
 			case 'projects.projects.10.tech.1': return 'Flutter';
 			case 'projects.projects.10.tech.2': return 'Firebase';
 			case 'projects.projects.10.type': return 'Application';
-			case 'projects.projects.11.cover_img': return 'available.jpg';
+			case 'projects.projects.11.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/kabima.png';
 			case 'projects.projects.11.description': return 'Final project of course Object-Oriented Programming';
 			case 'projects.projects.11.external_link': return '';
 			case 'projects.projects.11.github_link': return 'https://github.com/fajarmuhamad616/Kabima';
@@ -2632,7 +2632,7 @@ extension on _LocaleEn {
 			case 'projects.projects.11.tech.3': return 'CSS';
 			case 'projects.projects.11.tech.4': return 'MySQL';
 			case 'projects.projects.11.type': return 'Application';
-			case 'projects.projects.12.cover_img': return 'available.jpg';
+			case 'projects.projects.12.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/lapif.png';
 			case 'projects.projects.12.description': return 'Final project of course Web Programming';
 			case 'projects.projects.12.external_link': return 'https://lapif.netlify.app';
 			case 'projects.projects.12.github_link': return 'https://github.com/fajarmuhamad616/LAPIF-Backend';
@@ -2646,7 +2646,7 @@ extension on _LocaleEn {
 			case 'projects.projects.12.tech.4': return 'MySQL';
 			case 'projects.projects.12.tech.5': return 'Figma';
 			case 'projects.projects.12.type': return 'Websites';
-			case 'projects.projects.13.cover_img': return 'available.jpg';
+			case 'projects.projects.13.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/secret_calorie.png';
 			case 'projects.projects.13.description': return 'Final project of course ASTEM (Application of Sains, Technology, Engineering, Mathematics)';
 			case 'projects.projects.13.external_link': return 'https://secretcalorie.github.io/home';
 			case 'projects.projects.13.github_link': return 'https://github.com/fajarmuhamad616/SecretCalorie';
@@ -2660,7 +2660,7 @@ extension on _LocaleEn {
 			case 'projects.projects.13.tech.4': return 'MySQL';
 			case 'projects.projects.13.tech.5': return 'Figma';
 			case 'projects.projects.13.type': return 'Websites';
-			case 'projects.projects.14.cover_img': return 'available.jpg';
+			case 'projects.projects.14.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/upicare.png';
 			case 'projects.projects.14.description': return 'Final project of course STEM (Sains, Technology, Engineering, Mathematics)';
 			case 'projects.projects.14.external_link': return '';
 			case 'projects.projects.14.github_link': return '';
