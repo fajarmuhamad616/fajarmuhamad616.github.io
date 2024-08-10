@@ -1,0 +1,263 @@
+{
+    "projects": [
+      {
+        "cover_img": "confidential.jpg",
+        "description": "Gateway for Sabre",
+        "external_link": "www.travelagent.co.id",
+        "github_link": "",
+        "images": [],
+        "is_personal": "false",
+        "name" : "Airline Gateway Sabre (Project name ommited)",
+        "playstore_link": "",
+        "tech": [
+          "Java",
+          "Spring boot",
+          "PostgreSQL",
+          "Jasper Reports"
+        ],
+        "type": "Gateway"
+      },
+      {
+        "cover_img": "confidential.jpg",
+        "description": "Gateway for SQ Singapore Airlines",
+        "external_link": "www.travelagent.co.id",
+        "github_link": "",
+        "images": [],
+        "is_personal": "false",
+        "name" : "Airline Gateway SQ Singapore Airlines (Project name ommited)",
+        "playstore_link": "",
+        "tech": [
+          "Java",
+          "Spring boot",
+          "PostgreSQL",
+          "Jasper Reports"
+        ],
+        "type": "Gateway"
+      },
+      {
+        "cover_img": "confidential.jpg",
+        "description": "Gateway for 8B TransNusa Airlines",
+        "external_link": "www.travelagent.co.id",
+        "github_link": "",
+        "images": [],
+        "is_personal": "false",
+        "name" : "Airline Gateway 8B TransNusa Airlines (Project name ommited)",
+        "playstore_link": "",
+        "tech": [
+          "Java",
+          "Spring boot",
+          "PostgreSQL",
+          "Jasper Reports"
+        ],
+        "type": "Gateway"
+      },
+      {
+        "cover_img": "confidential.jpg",
+        "description": "Services for Airlines",
+        "external_link": "www.travelagent.co.id",
+        "github_link": "",
+        "images": [],
+        "is_personal": "false",
+        "name" : "Airline Booking Service (Project name ommited)",
+        "playstore_link": "",
+        "tech": [
+          "Java",
+          "Spring boot",
+          "PostgreSQL",
+          "Apache Solr",
+          "Elasticsearch"
+        ],
+        "type": "Services"
+      },
+      {
+        "cover_img": "confidential.jpg",
+        "description": "Services for Hotel",
+        "external_link": "www.travelagent.co.id",
+        "github_link": "",
+        "images": [],
+        "is_personal": "false",
+        "name" : "Hotel Booking Service (Project name ommited)",
+        "playstore_link": "",
+        "tech": [
+          "Java",
+          "Spring boot",
+          "PostgreSQL",
+          "Apache Solr",
+          "Elasticsearch"
+        ],
+        "type": "Services"
+      },
+      {
+        "cover_img": "confidential.jpg",
+        "description": "Translocation for Airlines Data",
+        "external_link": "www.travelagent.co.id",
+        "github_link": "",
+        "images": [],
+        "is_personal": "false",
+        "name" : "Airline Translocation (Project name ommited)",
+        "playstore_link": "",
+        "tech": [
+          "Java",
+          "Spring boot",
+          "Oracle Database",
+          "PostgreSQL",
+          "Apache Solr",
+          "Elasticsearch"
+        ],
+        "type": "Services"
+      },
+      {
+        "cover_img": "confidential.jpg",
+        "description": "Services for Train",
+        "external_link": "www.travelagent.co.id",
+        "github_link": "",
+        "images": [],
+        "is_personal": "false",
+        "name" : "Train Availability Services (Project name ommited)",
+        "playstore_link": "",
+        "tech": [
+          "Java",
+          "Spring boot",
+          "PostgreSQL"
+        ],
+        "type": "Services"
+      },
+      {
+        "cover_img": "available.jpg",
+        "description": "Final project for Thesis",
+        "external_link": "",
+        "github_link": "",
+        "images": [],
+        "is_personal": "true",
+        "name" : "ObreusDroid (Observer Resource Usage Android)",
+        "playstore_link": "",
+        "tech": [
+          "Bash"
+        ],
+        "type": "Application"
+      },
+      {
+        "cover_img": "available.jpg",
+        "description": "Final project of Internship",
+        "external_link": "",
+        "github_link": "",
+        "images": [],
+        "is_personal": "true",
+        "name" : "Make a Good Excel Reader",
+        "playstore_link": "",
+        "tech": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "PHP",
+          "MySQL",
+          "BootStrap"
+        ],
+        "type": "Websites"
+      },
+      {
+        "cover_img": "available.jpg",
+        "description": "Final project of course consultant project",
+        "external_link": "",
+        "github_link": "",
+        "images": [],
+        "is_personal": "true",
+        "name" : "Discite Institute Website",
+        "playstore_link": "",
+        "tech": [
+          "PHP",
+          "CMS WordPress",
+          "MySQL"
+        ],
+        "type": "Websites"
+      },
+      {
+        "cover_img": "available.jpg",
+        "description": "Capstone project of Kampus Merdeka (Dicoding Indonesia)",
+        "external_link": "",
+        "github_link": "https://github.com/fajarmuhamad616/CSD104_SUSMATIOR",
+        "images": [],
+        "is_personal": "true",
+        "name" : "Suspicious Information Observers (SUSMATIOR)",
+        "playstore_link": "",
+        "tech": [
+          "Dart",
+          "Flutter",
+          "Firebase"
+        ],
+        "type": "Application"
+      },
+      {
+        "cover_img": "available.jpg",
+        "description": "Final project of course Object-Oriented Programming",
+        "external_link": "",
+        "github_link": "https://github.com/fajarmuhamad616/Kabima",
+        "images": [],
+        "is_personal": "true",
+        "name" : "Kasir Bisnis Mandiri (KABIMA)",
+        "playstore_link": "",
+        "tech": [
+          "SceneBuilder",
+          "JavaFX",
+          "FXML",
+          "CSS",
+          "MySQL"
+        ],
+        "type": "Application"
+      },
+      {
+        "cover_img": "available.jpg",
+        "description": "Final project of course Web Programming",
+        "external_link": "https://lapif.netlify.app",
+        "github_link": "https://github.com/fajarmuhamad616/LAPIF-Backend",
+        "images": [],
+        "is_personal": "true",
+        "name" : "Layanan Aspirasi Pengaduan Informasi dan Forum (LAPIF)",
+        "playstore_link": "",
+        "tech": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "PHP",
+          "MySQL",
+          "Figma"
+        ],
+        "type": "Websites"
+      },
+      {
+        "cover_img": "available.jpg",
+        "description": "Final project of course ASTEM (Application of Sains, Technology, Engineering, Mathematics)",
+        "external_link": "https://secretcalorie.github.io/home",
+        "github_link": "https://github.com/fajarmuhamad616/SecretCalorie",
+        "images": [],
+        "is_personal": "true",
+        "name" : "SecretCalorie",
+        "playstore_link": "",
+        "tech": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "PHP",
+          "MySQL",
+          "Figma"
+        ],
+        "type": "Websites"
+      },
+      {
+        "cover_img": "available.jpg",
+        "description": "Final project of course STEM (Sains, Technology, Engineering, Mathematics)",
+        "external_link": "",
+        "github_link": "",
+        "images": [],
+        "is_personal": "true",
+        "name" : "UPICARE",
+        "playstore_link": "",
+        "tech": [
+          "Java",
+          "Figma",
+          "Arduino UNO"
+        ],
+        "type": "Application"
+      }
+    ]
+  }

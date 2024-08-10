@@ -1,0 +1,25 @@
+{
+    "about_me": "I am graduated from Universitas Pendidikan Indonesia as Bachelor Degreer Software Engineer and ever followed Kampus Merdeka Independent Study program to learn depth Android Native and Multiplatform with integrated Backend as a Service (BaaS). I also follow internship program as Web Developer remotely with developing an Frontend, Backend, and API. Since college i have been active in community KOMPETEGRAM (KOMunitas PEncinta TEknologi pemroGRAMan) and practicum assistant on computer network course. Furthermore, i have achievement publication international journal scopus.\n\nAs a Software Engineer, I always learn depth and sharpen logic of coding to accumulate skill and experience with research and developing applications frontend or backend system. I have a work experience as a Software Engineer focusing in Backend Engineer in corporate of industry tour and travel agency. In my work i developing a services backend, migration data hotels and airlines, migration search system from deprecated system to latest system, domestic and international airlines gateway with complex API (REST and SOAP), and maintenance another services. Knowledge research and development since college i use to my work with always ensure source code to made readable without code smells with code refactor and made performance of applications avoid bottleneck. \n\nMoreover, i have experience to deployment with Docker and Kubernetes or Jenkins and softskills like communication and problem solving. With related experience, i have also collaborated with Quality Assurance (QA) to conduct testing at the development stage before the production stage.",
+    "about_cards" : [
+        {
+            "content": "Made code of applications high quality and reusable.",
+            "title": "Software Engineer"
+        },
+        {
+            "content": "Using Java & Spring Boot, I can developing backend systems.",
+            "title": "Backend Developer"
+        },
+        {
+            "content": "Developing and Integrating APIs to synchronize another services (microservices).",
+            "title": "API Development & Integration"
+        },
+        {
+            "content": "Using Dart & Flutter, I can developing applications and websites.",
+            "title": "Mobile Apps Developer"
+        },
+        {
+            "content": "I research of code smells and refactor to avoid bug and bottleneck.",
+            "title": "Research & Code Refactor"
+        }
+    ]
+}

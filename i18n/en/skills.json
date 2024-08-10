@@ -1,0 +1,84 @@
+{
+    "skills": [
+      {
+        "img": "https://img.icons8.com/?size=512&id=13679&format=png",
+        "name": "Java"
+      },
+      {
+        "img": "https://img.icons8.com/?size=512&id=7AFcZ2zirX6Y&format=png",
+        "name": "Dart"
+      },
+      {
+        "img": "https://img.icons8.com/?size=512&id=9MJf0ngDwS8z&format=png",
+        "name": "Bash"
+      },
+      {
+        "img": "https://img.icons8.com/?size=512&id=ZoxjA0jZDdFZ&format=png",
+        "name": "Kotlin"
+      },
+      {
+        "img": "https://img.icons8.com/?size=512&id=ylXrZF2zxsFE&format=png",
+        "name": "PHP"
+      },
+      {
+        "img": "https://img.icons8.com/?size=512&id=90519&format=png",
+        "name": "Spring Boot"
+      },
+      {
+        "img": "https://img.icons8.com/?size=512&id=5pu47piHKg1I&format=png",
+        "name": "Flutter"
+      },
+      {
+        "img": "https://img.icons8.com/?size=512&id=38561&format=png",
+        "name": "PostgreSQL"
+      },
+      {
+        "img": "https://img.icons8.com/?size=512&id=39913&format=png",
+        "name": "Oracle Database"
+      },
+      {
+        "img": "https://img.icons8.com/?size=512&id=qGUfLiYi1bRN&format=png",
+        "name": "MySQL"
+      },
+      {
+        "img": "https://img.icons8.com/?size=512&id=62452&format=png",
+        "name": "Firebase"
+      },
+      {
+        "img": "https://img.icons8.com/?size=512&id=tBBf3P8HL0vR&format=png",
+        "name": "MongoDb"
+      },
+      {
+        "img": "https://static-00.iconduck.com/assets.00/hibernate-icon-1965x2048-cl94vxbt.png",
+        "name": "Hibernate"
+      },
+      {
+        "img": "https://img.icons8.com/?size=512&id=zfHRZ6i1Wg0U&format=png",
+        "name": "Figma"
+      },
+      {
+        "img": "https://i0.wp.com/www.sadeempc.com/wp-content/uploads/2022/10/SonarQube-Data-Center-Edition-Keygen.webp",
+        "name": "SonarQube"
+      },
+      {
+        "img": "https://img.icons8.com/?size=512&id=9uVrNMu3Zx1K&format=png",
+        "name": "Grafana"
+      },
+      {
+        "img": "https://img.icons8.com/?size=512&id=22813&format=png",
+        "name": "Docker"
+      },
+      {
+        "img": "https://img.icons8.com/?size=512&id=cvzmaEA4kC0o&format=png",
+        "name": "Kubernetes"
+      },
+      {
+        "img": "https://img.icons8.com/?size=512&id=aGBLcugRkYpT&format=png",
+        "name": "Elasticsearch"
+      },
+      {
+        "img": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Swagger-logo.png",
+        "name": "Swagger"
+      }
+    ]
+  }

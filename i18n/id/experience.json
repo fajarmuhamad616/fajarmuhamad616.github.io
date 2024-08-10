@@ -1,0 +1,89 @@
+{
+    "experiences": [
+      {
+        "company": "PT Voltras International",
+        "country": "Indonesia",
+        "emp_type": "Penuh - Waktu",
+        "position": "Software Engineer (Onsite)",
+        "site_url": "www.travelagent.co.id",
+        "start_date": "2023-06-05T00:00:00.000",
+        "end_date": "2024-06-05T00:00:00.000",
+        "state": "Tangerang Selatan",
+        "works": [
+        "Pemfilteran ketersediaan kereta api berdasarkan tiap kelas dari API Kereta Api Indonesia (KAI).",
+        "Pengembangan fitur impor dan ekspor tiap hotel dalam spreadsheet dan pemfilteran data hotel duplikat dengan penilaian dalam layanan manajemen hotel.",
+        "Migrasi lebih dari 350.000 data hotel dari Solr ke Elasticsearch ke tujuan pencarian yang disarankan.",
+        "Migrasi data pencarian bandara (kode, nama, dan lokasi) dari Solr ke Elasticsearch ke tujuan pencarian yang disarankan.",
+        "Migrasi data penumpang maskapai penerbangan dari Solr ke Elasticsearch ke tujuan menyimpan riwayat reservasi penumpang.",
+        "Transformasi penyimpanan data dari Solr ke Elasticsearch pada layanan hotel dan maskapai penerbangan.",
+        "Pengembangan dan implementasi fitur ketersediaan, tarif, pemesanan, pembatalan, pengambilan tambahan, pembayaran, cetak tiket, saldo gateway API maskapai penerbangan internasional dan domestik (maskapai penerbangan TransNusa, Singapore Airlines, dan Sabre) dengan transformasi XML ke JSON, termasuk API versi NDC (New Distribution Capability) hingga UAT (User Acceptance Testing).",
+        "Pengembangan API logger untuk mengambil log masuk (inbound) dan log keluar (outbound) gateway API 8B (TransNusa Airlines), SQ (Singapore Airlines), JT (Lion Airlines), JQ (Jetstar Airlines), dan Sabre."
+        ],
+        "is_work_here": "false"
+      },
+      {
+        "company": "PT Informasi Teknologi Indonesia (Jatis Mobile)",
+        "country": "Indonesia",
+        "emp_type": "Magang",
+        "position": "Web Developer (Remote)",
+        "site_url": "jatismobile.com",
+        "start_date": "2022-08-18T00:00:00.000",
+        "end_date": "2022-12-26T00:00:00.000",
+        "state": "Jakarta Selatan",
+        "works": [
+          "Melakukan inovasi atau ide baru untuk salah satu produk di Jatis Mobile dan dipresentasikan.",
+          "Pengembangan backend website dengan konsep MVC PHP native dan front-end yang setiap halaman front-endnya menyesuaikan desain UI/UX.",
+          "Pengembangan proyek 'Membuat Pembaca Excel yang Baik' dengan fitur verifikasi email, impor dan ekspor data ke spreadsheet, dan API."
+        ],
+        "is_work_here": "false"
+      },
+      {
+        "company": "Universitas Pendidikan Indonesia",
+        "country": "Indonesia",
+        "emp_type": "Musiman",
+        "position": "Asisten Praktikum (Remote)",
+        "site_url": "rpl.upi.edu",
+        "start_date": "2022-02-02T00:00:00.000",
+        "end_date": "2022-05-25T00:00:00.000",
+        "state": "Kabupaten Bandung",
+        "works": [
+         "Membuat buku pegangan tentang jaringan komputer.",
+         "Membantu mahasiswa dalam sesi praktik menggunakan Cisco Packet Tracer.",
+         "Membantu dosen dalam mata kuliah jaringan komputer."
+        ],
+        "is_work_here": "false"
+      },
+      {
+        "company": "Discite Institute",
+        "country": "Indonesia",
+        "emp_type": "Project Based",
+        "position": "Web Developer (Remote)",
+        "site_url": "www.disciteinstitute.my.id",
+        "start_date": "2022-02-23T00:00:00.000",
+        "end_date": "2022-05-13T00:00:00.000",
+        "state": "Padang",
+        "works": [
+        "Pengembangan situs web Discite Institute dengan Sistem Manajemen Konten (CMS) WordPress dengan antarmuka pengguna yang dapat disesuaikan.",
+        "Kolaborasi antara tim desain UI/UX dan tim pengembangan.",
+        "Membuat dokumentasi panduan tentang penggunaan situs web Discite Institute."
+        ],
+        "is_work_here": "false"
+      },
+      {
+        "company": "PT Telkom Indonesia",
+        "country": "Indonesia",
+        "emp_type": "Magang",
+        "position": "Maintenance Preventive STO (OnSite)",
+        "site_url": "www.telkom.co.id",
+        "start_date": "2018-03-22T00:00:00.000",
+        "end_date": "2018-06-22T00:00:00.000",
+        "state": "Kota Serang",
+        "works": [
+         "Melakukan validasi peredaman optik fber pada pemeliharaan jaringan.",
+         "Kerjakan entri label data untuk setiap optik fber ke situs web untuk pemeliharaan jaringan tujuan.",
+         "Dokumentasi perbaikan jaringan optik fber."
+        ],
+        "is_work_here": "false"
+      }
+    ]
+  }

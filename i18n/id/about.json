@@ -1,0 +1,25 @@
+{
+    "about_me": "Saya lulusan Universitas Pendidikan Indonesia sebagai Sarjana Software Engineer dan pernah mengikuti program Studi Mandiri Kampus Merdeka untuk mendalami Android Native dan Multiplatform dengan Backend as a Service (BaaS) yang terintegrasi. Saya juga mengikuti program magang sebagai Web Developer secara remote dengan mengembangkan Frontend, Backend, dan API. Sejak kuliah saya aktif di komunitas KOMPETEGRAM (KOMunitas PEncinta TEknologi pemroGRAMan) dan asisten praktikum pada mata kuliah jaringan komputer. Selain itu, saya memiliki prestasi publikasi jurnal internasional scopus.\n\nSebagai Software Engineer, saya selalu belajar secara mendalam dan mengasah logika coding untuk mengumpulkan keterampilan dan pengalaman dengan penelitian dan pengembangan aplikasi sistem frontend atau backend. Saya memiliki pengalaman kerja sebagai Software Engineer dengan fokus pada Backend Engineer di perusahaan atau industri tour and travel agency. Dalam pekerjaan saya, saya mengembangkan layanan backend, migrasi data hotel dan maskapai penerbangan, migrasi sistem pencarian dari sistem usang ke sistem terbaru, gateway maskapai penerbangan domestik dan internasional dengan API yang kompleks (REST dan SOAP), dan pemeliharaan layanan lainnya. Riset dan pengembangan pengetahuan sejak kuliah saya gunakan dalam pekerjaan saya dengan selalu memastikan kode sumber dapat dibaca tanpa code smells dengan melakukan refaktor kode dan membuat kinerja aplikasi terhindar dari kemacetan. \n\nSelain itu, saya memiliki pengalaman dalam penerapan dengan Docker dan Kubernetes atau Jenkins dan softskill seperti komunikasi dan pemecahan masalah. Dengan pengalaman terkait, saya juga telah bekerja sama dengan Quality Assurance (QA) untuk melakukan pengujian pada tahap pengembangan sebelum tahap produksi.",
+    "about_cards" : [
+        {
+            "content": "Membuat kode aplikasi berkualitas tinggi dan dapat digunakan kembali.",
+            "title": "Software Engineer"
+        },
+        {
+            "content": "Menggunakan Java & Spring Boot, saya dapat mengembangkan sistem backend.",
+            "title": "Backend Developer"
+        },
+        {
+            "content": "Mengembangkan dan mengintegrasikan API untuk menyinkronkan service lain (microservices).",
+            "title": "API Development & Integration"
+        },
+        {
+            "content": "Menggunakan Dart & Flutter, saya dapat mengembangkan aplikasi dan situs web.",
+            "title": "Mobile Apps Developer"
+        },
+        {
+            "content": "Saya meneliti code smells dan melakukan refactor untuk menghindari bug dan bottleneck.",
+            "title": "Research & Code Refactor"
+        }
+    ]
+}

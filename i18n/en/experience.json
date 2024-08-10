@@ -1,0 +1,89 @@
+{
+    "experiences": [
+      {
+        "company": "PT Voltras International",
+        "country": "Indonesia",
+        "emp_type": "Full - Time",
+        "position": "Software Engineer (Onsite)",
+        "site_url": "www.travelagent.co.id",
+        "start_date": "2023-06-05T00:00:00.000",
+        "end_date": "2024-06-05T00:00:00.000",
+        "state": "South Tangerang",
+        "works": [
+          "Filtering train availability by each class from Kereta Api Indonesia (KAI) API.",
+          "Development feature import and export each hotel in spreadsheets and flter the duplicate hotel data with scoring in hotel management service.",
+          "Migration more than 350.000 hotel data from Solr to Elasticsearch to the aim suggest search.",
+          "Migration airports searching data (code, name, and location) from Solr to Elasticsearch to the aim suggest search.",
+          "Migration airlines passenger data from Solr to Elasticsearch to the aim saved a history passenger reserved.",
+          "Transformation data storage from Solr to Elasticsearch on the hotel and airline service.",
+          "Development and implementation feature availability, fare, booking, cancel, retrieve ancillary, payment, print ticket, balance of international and domestic airlines API gateway (TransNusa airlines, Singapore airlines, and Sabre) with transformation XML to JSON, include API version NDC (New Distribution Capability) until UAT (User Acceptance Testing).",
+          "Development an API logger to taking incoming log (inbound) and outgoing log (outbound) API gateway 8B (TransNusa Airlines), SQ (Singapore Airlines), JT (Lion Airlines), JQ (Jetstar Airlines), and Sabre."
+        ],
+        "is_work_here": "false"
+      },
+      {
+        "company": "PT Informasi Teknologi Indonesia (Jatis Mobile)",
+        "country": "Indonesia",
+        "emp_type": "Internship",
+        "position": "Web Developer (Remote)",
+        "site_url": "jatismobile.com",
+        "start_date": "2022-08-18T00:00:00.000",
+        "end_date": "2022-12-26T00:00:00.000",
+        "state": "South Jakarta",
+        "works": [
+          "Make innovations or new ideas for one of the products in Jatis Mobile and presented.",
+          "Development a backend of website with concept MVC PHP native and front-end each page front-end adjusts UI/UX design.",
+          "Development project 'Make a Good Excel Reader' with feature verify email, import and export data to spreadsheets, and API."
+        ],
+        "is_work_here": "false"
+      },
+      {
+        "company": "Universitas Pendidikan Indonesia",
+        "country": "Indonesia",
+        "emp_type": "Seasonal",
+        "position": "Practicum Assistant (Remote)",
+        "site_url": "rpl.upi.edu",
+        "start_date": "2022-02-02T00:00:00.000",
+        "end_date": "2022-05-25T00:00:00.000",
+        "state": "Bandung Regency",
+        "works": [
+          "Made a handbook about computer network.",
+          "Help students in practical sessions using Cisco Packet Tracer.",
+          "Assisting the lecturer in computer network course."
+        ],
+        "is_work_here": "false"
+      },
+      {
+        "company": "Discite Institute",
+        "country": "Indonesia",
+        "emp_type": "Project Based",
+        "position": "Web Developer (Remote)",
+        "site_url": "www.disciteinstitute.my.id",
+        "start_date": "2022-02-23T00:00:00.000",
+        "end_date": "2022-05-13T00:00:00.000",
+        "state": "Padang",
+        "works": [
+          "Development a website Discite Institute with Content Management System (CMS) WordPress with a customization user interface.",
+          "Collaborating between UI/UX design team and development team.",
+          "Made a guide documentation about usage the website of Discite Institute."
+        ],
+        "is_work_here": "false"
+      },
+      {
+        "company": "PT Telkom Indonesia",
+        "country": "Indonesia",
+        "emp_type": "Internship",
+        "position": "Maintenance Preventive STO (OnSite)",
+        "site_url": "www.telkom.co.id",
+        "start_date": "2018-03-22T00:00:00.000",
+        "end_date": "2018-06-22T00:00:00.000",
+        "state": "Serang City",
+        "works": [
+          "Perform damping validation of fber optic on network maintenance.",
+          "Work on entries label of data for each fber optic into the website to the aim maintenance network.",
+          "Documentation repairing fber optic network."
+        ],
+        "is_work_here": "false"
+      }
+    ]
+  }
