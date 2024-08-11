@@ -1,5 +1,6 @@
 import 'package:fajaralhijr_github_io/utils/external_app_util.dart';
-import 'package:fajaralhijr_github_io/views/widgets_utils/icon_hover_util.dart';
+import 'package:fajaralhijr_github_io/values/colors.dart';
+import 'package:fajaralhijr_github_io/views/desktop/widgets/icon_hover.dart';
 import 'package:flutter/material.dart';
 
 class ProjectIconBtn extends StatelessWidget {
@@ -9,7 +10,7 @@ class ProjectIconBtn extends StatelessWidget {
   final bool isTablet;
 
   const ProjectIconBtn({
-    Key? key,
+    super.key,
     required this.icon,
     required this.link,
     this.padding,
@@ -22,7 +23,7 @@ class ProjectIconBtn extends StatelessWidget {
       visible: isTablet ? true : link.isNotEmpty,
       child: IconHoverUtil(
         icon: icon,
-        color: Colors.green,
+        color: kPrimaryColor,
         click: () => {
           if (link.isNotEmpty) ExternalAppUtil.redirectToLink(url: link),
         },

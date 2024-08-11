@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:fajaralhijr_github_io/models/project_model.dart';
-import 'package:fajaralhijr_github_io/utils/fonts_util.dart';
+import 'package:fajaralhijr_github_io/values/styles.dart';
 
 class SingleProjectCard extends StatelessWidget {
-  final ProjectModel proj;
+  final ProjectModel project;
 
-  const SingleProjectCard({super.key, required this.proj});
+  const SingleProjectCard({super.key, required this.project});
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,7 @@ class SingleProjectCard extends StatelessWidget {
               decoration: BoxDecoration(
                 // color: klightDarkColor,
                 image: DecorationImage(
-                  image: NetworkImage(proj.cover),
+                  image: NetworkImage(project.cover),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -31,11 +31,11 @@ class SingleProjectCard extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  proj.name,
+                  project.name,
                   style: kMiniTitleTextStyleGreen.copyWith(fontSize: 18),
                 ),
                 Text(
-                  proj.description,
+                  project.description,
                   style: kNormalTextStyleGrey,
                   maxLines: 8,
                   overflow: TextOverflow.ellipsis,

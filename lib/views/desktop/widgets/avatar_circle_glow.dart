@@ -1,5 +1,6 @@
 import 'package:avatar_glow/avatar_glow.dart';
 import 'package:fajaralhijr_github_io/enum/device_enum.dart';
+import 'package:fajaralhijr_github_io/values/colors.dart';
 import 'package:flutter/material.dart';
 
 class AvatarCircleGlowUtil extends StatelessWidget {
@@ -17,7 +18,7 @@ class AvatarCircleGlowUtil extends StatelessWidget {
     ImageProvider<Object> myProfile = const AssetImage("assets/my-profile.jpg");
     return AvatarGlow(
       animate: true,
-      glowColor: Colors.green.shade800,
+      glowColor: kPrimaryColor,
       repeat: true,
       duration: const Duration(seconds: 3),
       glowRadiusFactor: device == DeviceEnum.DESKTOP
@@ -32,7 +33,7 @@ class AvatarCircleGlowUtil extends StatelessWidget {
             image: myProfile,
             fit: BoxFit.contain,
           ),
-          color: Colors.black54,
+          color: kBlackColor,
         ),
       ),
     );

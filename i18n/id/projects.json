@@ -125,8 +125,8 @@
     {
       "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/obreus_droid.png",
       "description": "Proyek akhir skripsi",
-      "external_link": "",
-      "github_link": "",
+      "external_link": "https://doi.org/10.5281/zenodo.7665495",
+        "github_link": "https://github.com/fajarmuhamad616/ObreusDroid",
       "images": [],
       "is_personal": "true",
       "name" : "ObreusDroid (Observer Resource Usage Android)",

@@ -1,4 +1,4 @@
-import 'package:fajaralhijr_github_io/utils/style.dart';
+import 'package:fajaralhijr_github_io/values/styles.dart';
 import 'package:flutter/material.dart';
 
 class InputFieldUtil extends StatelessWidget {

@@ -7,12 +7,12 @@ class IconHoverUtil extends StatefulWidget {
   final double? padding;
 
   const IconHoverUtil({
-    Key? key,
+    super.key,
     required this.icon,
     required this.color,
     required this.click,
     this.padding = 10,
-  }) : super(key: key);
+  });
 
   @override
   State<IconHoverUtil> createState() => _IconHoverUtilState();

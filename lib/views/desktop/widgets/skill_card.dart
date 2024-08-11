@@ -1,5 +1,6 @@
 import 'package:fajaralhijr_github_io/models/skill_model.dart';
-import 'package:fajaralhijr_github_io/utils/fonts_util.dart';
+import 'package:fajaralhijr_github_io/values/colors.dart';
+import 'package:fajaralhijr_github_io/values/styles.dart';
 import 'package:flutter/material.dart';
 
 class SkillCard extends StatefulWidget {
@@ -17,7 +18,7 @@ class SkillCard extends StatefulWidget {
 }
 
 class _SkillCardState extends State<SkillCard> {
-  Color color = Colors.black87;
+  Color color = kLightDarkColor;
   double height = 0.0;
 
   @override
@@ -51,7 +52,7 @@ class _SkillCardState extends State<SkillCard> {
           onExit: (_) {
             setState(
               () {
-                color = Colors.black;
+                color = kLightDarkColor;
                 height = widget.size;
               },
             );
@@ -66,7 +67,7 @@ class _SkillCardState extends State<SkillCard> {
               boxShadow: [
                 BoxShadow(
                   offset: const Offset(3, 5),
-                  color: const Color(0xff000000).withOpacity(.1),
+                  color: kBlackColor.withOpacity(.1),
                   blurRadius: 2.0,
                   spreadRadius: 2.0,
                 ),
@@ -81,8 +82,8 @@ class _SkillCardState extends State<SkillCard> {
           ),
         ),
         Text(widget.skill.name, style: kMiniTitleTextStyleWhite),
-        SizedBox(),
-        SizedBox(),
+        const SizedBox(),
+        const SizedBox(),
       ],
     );
   }

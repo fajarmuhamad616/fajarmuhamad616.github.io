@@ -1,7 +1,9 @@
 import 'package:fajaralhijr_github_io/controllers/experience_controller.dart';
+import 'package:fajaralhijr_github_io/locale/locale.g.dart';
 import 'package:fajaralhijr_github_io/utils/external_app_util.dart';
-import 'package:fajaralhijr_github_io/utils/fonts_util.dart';
-import 'package:fajaralhijr_github_io/views/widgets_utils/title_section_util.dart';
+import 'package:fajaralhijr_github_io/values/colors.dart';
+import 'package:fajaralhijr_github_io/values/styles.dart';
+import 'package:fajaralhijr_github_io/views/desktop/widgets/title_section.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
@@ -27,30 +29,32 @@ class ProfessionalExperienceSection extends StatelessWidget {
       width: double.infinity,
       child: Column(
         children: [
-          const TitleSectionUtil(
-            title: "Professional Experience",
+          TitleSectionUtil(
+            title: texts.general.title_experience_section,
             isDesktop: true,
           ),
           experienceController.workExperience.isEmpty
               ? const CircularProgressIndicator()
               : ExpansionPanelList.radio(
+                  materialGapSize: 0.0,
                   children: experienceController.workExperience
                       .map(
                         (work) => ExpansionPanelRadio(
-                          backgroundColor: Colors.black45,
+                          backgroundColor: kDarkColor,
                           canTapOnHeader: true,
                           value: work.id!,
                           headerBuilder: ((context, isExpanded) {
-                            LocalDate a;
+                            LocalDate dateWork;
                             if (work.worksHere) {
-                              a = LocalDate.today();
+                              dateWork = LocalDate.today();
                             } else {
-                              a = LocalDate.dateTime(
-                                  DateTime.parse(work.endDate!));
+                              dateWork = LocalDate.dateTime(DateTime.parse(
+                                  work.endDate ?? '1970-01-01T00:00:00Z'));
                             }
-                            LocalDate b = LocalDate.dateTime(
+                            LocalDate startWorkByDate = LocalDate.dateTime(
                                 DateTime.parse(work.startDate));
-                            Period diff = a.periodSince(b);
+                            Period countPeriodByDate =
+                                dateWork.periodSince(startWorkByDate);
                             return MouseRegion(
                               onEnter: (_) => experienceController
                                   .triggerAnimation(work.id!, true),
@@ -68,7 +72,7 @@ class ProfessionalExperienceSection extends StatelessWidget {
                                           child: Text(
                                             work.position,
                                             style: const TextStyle(
-                                              color: Colors.white,
+                                              color: kLightColor,
                                             ),
                                           ),
                                         ),
@@ -85,7 +89,7 @@ class ProfessionalExperienceSection extends StatelessWidget {
                                             children: [
                                               Row(
                                                 children: [
-                                                  Text(
+                                                  const Text(
                                                     '@',
                                                     style: TextStyle(
                                                       fontWeight:
@@ -122,16 +126,20 @@ class ProfessionalExperienceSection extends StatelessWidget {
                                                     ],
                                                   ),
                                                   Container(
-                                                    margin: EdgeInsets.only(
-                                                        left: 10),
-                                                    padding:
-                                                        EdgeInsets.symmetric(
-                                                            horizontal: 8,
-                                                            vertical: 4),
+                                                    margin:
+                                                        const EdgeInsets.only(
+                                                      left: 10,
+                                                    ),
+                                                    padding: const EdgeInsets
+                                                        .symmetric(
+                                                      horizontal: 8,
+                                                      vertical: 4,
+                                                    ),
                                                     decoration: BoxDecoration(
                                                       borderRadius:
                                                           BorderRadius.circular(
-                                                              5.0),
+                                                        5.0,
+                                                      ),
                                                     ),
                                                     child: Text(
                                                       work.empType,
@@ -153,7 +161,7 @@ class ProfessionalExperienceSection extends StatelessWidget {
                                         ),
                                         const SizedBox(width: 8),
                                         Text(
-                                          '${DateFormat.yMMM().format(DateTime.parse(work.startDate))} - ${work.worksHere ? 'Present' : DateFormat.yMMM().format(DateTime.parse(work.endDate!))}',
+                                          '${DateFormat.yMMM().format(DateTime.parse(work.startDate))} - ${work.worksHere ? 'Present' : DateFormat.yMMM().format(DateTime.parse(work.endDate ?? '1970-01-01T00:00:00Z'))}',
                                           style: kNormalTextStyleGrey.copyWith(
                                             fontSize: 12,
                                           ),
@@ -167,7 +175,9 @@ class ProfessionalExperienceSection extends StatelessWidget {
                                           ),
                                         ),
                                         Text(
-                                          '${diff.years == 0 ? '${diff.months} ${diff.months >= 2 ? 'months' : 'month'} ${diff.days} days' : '${diff.years} ${diff.years >= 2 ? 'years' : 'year'} ${diff.months} months ${diff.days} days'}',
+                                          countPeriodByDate.years == 0
+                                              ? '${countPeriodByDate.months} ${countPeriodByDate.months >= 2 ? 'months' : 'month'} ${countPeriodByDate.days} days'
+                                              : '${countPeriodByDate.years} ${countPeriodByDate.years >= 2 ? 'years' : 'year'} ${countPeriodByDate.months} months ${countPeriodByDate.days} days',
                                           style: kNormalTextStyleGrey.copyWith(
                                             fontSize: 12,
                                           ),
@@ -194,17 +204,17 @@ class ProfessionalExperienceSection extends StatelessWidget {
                           body: Column(
                             children: work.workDone
                                 .map(
-                                  (i) => Container(
+                                  (description) => Container(
                                     padding: const EdgeInsets.symmetric(
                                         horizontal: 15, vertical: 5),
                                     child: Row(
                                       crossAxisAlignment:
                                           CrossAxisAlignment.start,
                                       children: [
-                                        SizedBox(width: 7),
+                                        const SizedBox(width: 7),
                                         Expanded(
                                           child: Text(
-                                            i,
+                                            description,
                                             style:
                                                 kNormalTextStyleGrey.copyWith(
                                               fontSize: 14,

@@ -1,7 +1,8 @@
 // ignore_for_file: avoid_unnecessary_containers
 
 import 'package:fajaralhijr_github_io/models/about_card_model.dart';
-import 'package:fajaralhijr_github_io/utils/fonts_util.dart';
+import 'package:fajaralhijr_github_io/values/colors.dart';
+import 'package:fajaralhijr_github_io/values/styles.dart';
 import 'package:flutter/material.dart';
 
 class AboutCard extends StatefulWidget {
@@ -20,8 +21,8 @@ class _AboutCardState extends State<AboutCard> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(bottom: 25),
-      padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+      margin: const EdgeInsets.only(bottom: 25),
+      padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
       height: 140,
       width: double.infinity,
       decoration: BoxDecoration(
@@ -29,7 +30,7 @@ class _AboutCardState extends State<AboutCard> {
         boxShadow: [
           BoxShadow(
             offset: const Offset(3, 5),
-            color: Color.fromARGB(255, 51, 51, 51),
+            color: kGreySemiLightColor.withOpacity(.12),
           ),
         ],
       ),
@@ -65,12 +66,6 @@ class _AboutCardState extends State<AboutCard> {
                 size: 30.0,
                 color: widget.model.color,
               ),
-              // Image.asset(
-              //   widget.model.icon,
-              //   height: 30,
-              //   width: 30,
-              //   fit: BoxFit.cover,
-              // ),
             ],
           ),
         ],

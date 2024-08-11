@@ -1,3 +1,4 @@
+import 'package:fajaralhijr_github_io/values/colors.dart';
 import 'package:flutter/material.dart';
 
 class CustomButtonLocaleUtil extends StatelessWidget {
@@ -23,7 +24,7 @@ class CustomButtonLocaleUtil extends StatelessWidget {
           height: 45,
           width: 50,
           decoration: BoxDecoration(
-            color: Colors.black87,
+            color: kBlackColor,
             shape: BoxShape.rectangle,
             borderRadius: BorderRadius.circular(6),
           ),

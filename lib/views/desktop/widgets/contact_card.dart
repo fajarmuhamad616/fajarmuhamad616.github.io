@@ -5,10 +5,10 @@ class ContactCard extends StatelessWidget {
   final IconData icon;
 
   const ContactCard({
-    Key? key,
+    super.key,
     required this.content,
     required this.icon,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -36,7 +36,7 @@ class ContactCard extends StatelessWidget {
             Flexible(
               child: Text(
                 content,
-                style: TextStyle(fontSize: 17),
+                style: const TextStyle(fontSize: 17),
               ),
             ),
           ],

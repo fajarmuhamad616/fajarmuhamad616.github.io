@@ -1,4 +1,5 @@
-import 'package:fajaralhijr_github_io/utils/fonts_util.dart';
+import 'package:fajaralhijr_github_io/values/colors.dart';
+import 'package:fajaralhijr_github_io/values/styles.dart';
 import 'package:flutter/material.dart';
 
 class TextHoverNavigationTopUtil extends StatefulWidget {
@@ -19,7 +20,7 @@ class TextHoverNavigationTopUtil extends StatefulWidget {
 
 class _TextHoverNavigationTopUtilState
     extends State<TextHoverNavigationTopUtil> {
-  Color color = Colors.white;
+  Color color = kLightColor;
   FontWeight? _fontWeight;
   double width = 0;
 
@@ -30,7 +31,7 @@ class _TextHoverNavigationTopUtilState
       onEnter: (_) {
         setState(
           () {
-            color = Colors.green;
+            color = kPrimaryColor;
             _fontWeight = FontWeight.bold;
           },
         );
@@ -38,7 +39,7 @@ class _TextHoverNavigationTopUtilState
       onExit: (_) {
         setState(
           () {
-            color = Colors.white;
+            color = kLightColor;
             _fontWeight = null;
           },
         );

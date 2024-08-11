@@ -73,7 +73,7 @@
         "company": "PT Telkom Indonesia",
         "country": "Indonesia",
         "emp_type": "Magang",
-        "position": "Maintenance Preventive STO (OnSite)",
+        "position": "Maintenance Preventive STO (Onsite)",
         "site_url": "www.telkom.co.id",
         "start_date": "2018-03-22T00:00:00.000",
         "end_date": "2018-06-22T00:00:00.000",
@@ -81,7 +81,7 @@
         "works": [
          "Melakukan validasi peredaman optik fber pada pemeliharaan jaringan.",
          "Kerjakan entri label data untuk setiap optik fber ke situs web untuk pemeliharaan jaringan tujuan.",
-         "Dokumentasi perbaikan jaringan optik fber."
+         "Dokumentasi perbaikan jaringan optik fiber."
         ],
         "is_work_here": "false"
       }

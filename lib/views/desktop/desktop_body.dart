@@ -1,21 +1,23 @@
 import 'package:blurrycontainer/blurrycontainer.dart';
 import 'package:country_flags/country_flags.dart';
+import 'package:fajaralhijr_github_io/values/colors.dart';
+import 'package:fajaralhijr_github_io/views/desktop/sections/footer_section.dart';
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 import 'package:fajaralhijr_github_io/controllers/navigation_top_controller.dart';
 import 'package:fajaralhijr_github_io/locale/locale.g.dart';
 import 'package:fajaralhijr_github_io/services/message_service.dart';
-import 'package:fajaralhijr_github_io/utils/fonts_util.dart';
+import 'package:fajaralhijr_github_io/values/styles.dart';
 import 'package:fajaralhijr_github_io/views/desktop/sections/about_section.dart';
 import 'package:fajaralhijr_github_io/views/desktop/sections/contact_section.dart';
 import 'package:fajaralhijr_github_io/views/desktop/sections/home_section.dart';
 import 'package:fajaralhijr_github_io/views/desktop/sections/professional_experience_section.dart';
 import 'package:fajaralhijr_github_io/views/desktop/sections/projects_section.dart';
 import 'package:fajaralhijr_github_io/views/desktop/sections/skills_section.dart';
-import 'package:fajaralhijr_github_io/views/widgets_utils/custom_button_locale_util.dart';
-import 'package:fajaralhijr_github_io/views/widgets_utils/custom_button_util.dart';
-import 'package:fajaralhijr_github_io/views/widgets_utils/text_hover_navigation_top_util.dart';
+import 'package:fajaralhijr_github_io/views/desktop/widgets/custom_button_locale.dart';
+import 'package:fajaralhijr_github_io/views/desktop/widgets/custom_button.dart';
+import 'package:fajaralhijr_github_io/views/desktop/widgets/text_hover_navigation_top.dart';
 
 class DesktopBody extends StatefulWidget {
   const DesktopBody({super.key});
@@ -38,7 +40,8 @@ class _DesktopBodyState extends State<DesktopBody> {
   double projectsWidth = 0;
   double contactWidth = 0;
   final ScrollController _scrollController = ScrollController();
-  NavigationTopController _navigationTopController = NavigationTopController();
+  final NavigationTopController _navigationTopController =
+      NavigationTopController();
 
   @override
   void dispose() {
@@ -58,8 +61,8 @@ class _DesktopBodyState extends State<DesktopBody> {
               children: [
                 HomeSection(
                   key: homeKey,
-                  scrollToProjects: () {
-                    scrollToItem(projectsKey);
+                  scrollToProjects: () async {
+                    await scrollToItem(projectsKey);
                   },
                 ),
                 AboutSection(
@@ -77,6 +80,7 @@ class _DesktopBodyState extends State<DesktopBody> {
                 ContactSection(
                   key: contactKey,
                 ),
+                const FooterSection(),
               ],
             ),
           ),
@@ -90,7 +94,7 @@ class _DesktopBodyState extends State<DesktopBody> {
               margin: EdgeInsets.symmetric(horizontal: _screenWidth * .059),
               child: BlurryContainer(
                 borderRadius: BorderRadius.circular(64),
-                color: Colors.white10,
+                color: kDarkColor,
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
@@ -102,7 +106,7 @@ class _DesktopBodyState extends State<DesktopBody> {
                         },
                         child: const CircleAvatar(
                           foregroundImage: AssetImage('assets/my-profile.jpg'),
-                          backgroundColor: Colors.black87,
+                          backgroundColor: kGreySemiLightColor,
                           radius: 23,
                         ),
                       ),
@@ -118,7 +122,7 @@ class _DesktopBodyState extends State<DesktopBody> {
                     ),
                     Icon(
                       MdiIcons.leaf,
-                      color: Colors.green,
+                      color: kGreenColor,
                     ),
                     const Spacer(),
                     TextHoverNavigationTopUtil(

@@ -73,7 +73,7 @@
         "company": "PT Telkom Indonesia",
         "country": "Indonesia",
         "emp_type": "Internship",
-        "position": "Maintenance Preventive STO (OnSite)",
+        "position": "Maintenance Preventive STO (Onsite)",
         "site_url": "www.telkom.co.id",
         "start_date": "2018-03-22T00:00:00.000",
         "end_date": "2018-06-22T00:00:00.000",
@@ -81,7 +81,7 @@
         "works": [
           "Perform damping validation of fber optic on network maintenance.",
           "Work on entries label of data for each fber optic into the website to the aim maintenance network.",
-          "Documentation repairing fber optic network."
+          "Documentation repairing fiber optic network."
         ],
         "is_work_here": "false"
       }

@@ -3,7 +3,7 @@
       {
         "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png",
         "description": "Gateway for Sabre",
-        "external_link": "www.travelagent.co.id",
+        "external_link": "https://www.travelagent.co.id/",
         "github_link": "",
         "images": [],
         "is_personal": "false",
@@ -20,7 +20,7 @@
       {
         "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png",
         "description": "Gateway for SQ Singapore Airlines",
-        "external_link": "www.travelagent.co.id",
+        "external_link": "https://www.travelagent.co.id/",
         "github_link": "",
         "images": [],
         "is_personal": "false",
@@ -37,7 +37,7 @@
       {
         "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png",
         "description": "Gateway for 8B TransNusa Airlines",
-        "external_link": "www.travelagent.co.id",
+        "external_link": "https://www.travelagent.co.id/",
         "github_link": "",
         "images": [],
         "is_personal": "false",
@@ -54,7 +54,7 @@
       {
         "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png",
         "description": "Services for Airlines",
-        "external_link": "www.travelagent.co.id",
+        "external_link": "https://www.travelagent.co.id/",
         "github_link": "",
         "images": [],
         "is_personal": "false",
@@ -72,7 +72,7 @@
       {
         "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png",
         "description": "Services for Hotel",
-        "external_link": "www.travelagent.co.id",
+        "external_link": "https://www.travelagent.co.id/",
         "github_link": "",
         "images": [],
         "is_personal": "false",
@@ -90,7 +90,7 @@
       {
         "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png",
         "description": "Translocation for Airlines Data",
-        "external_link": "www.travelagent.co.id",
+        "external_link": "https://www.travelagent.co.id/",
         "github_link": "",
         "images": [],
         "is_personal": "false",
@@ -109,7 +109,7 @@
       {
         "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png",
         "description": "Services for Train",
-        "external_link": "www.travelagent.co.id",
+        "external_link": "https://www.travelagent.co.id/",
         "github_link": "",
         "images": [],
         "is_personal": "false",
@@ -125,8 +125,8 @@
       {
         "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/obreus_droid.png",
         "description": "Final project for Thesis",
-        "external_link": "",
-        "github_link": "",
+        "external_link": "https://doi.org/10.5281/zenodo.7665495",
+        "github_link": "https://github.com/fajarmuhamad616/ObreusDroid",
         "images": [],
         "is_personal": "true",
         "name" : "ObreusDroid (Observer Resource Usage Android)",

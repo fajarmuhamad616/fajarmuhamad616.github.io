@@ -1,4 +1,5 @@
 import 'package:decorated_icon/decorated_icon.dart';
+import 'package:fajaralhijr_github_io/values/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
@@ -25,10 +26,10 @@ class CustomButtonUtil extends StatelessWidget {
           height: 45,
           padding: const EdgeInsets.symmetric(horizontal: 20.0),
           decoration: BoxDecoration(
-            color: Colors.black87,
+            color: kBlackColor,
             borderRadius: BorderRadius.circular(45),
             border: Border.all(
-              color: Colors.green.shade900,
+              color: kPrimaryColor,
               width: 2.0,
             ),
           ),
@@ -41,7 +42,7 @@ class CustomButtonUtil extends StatelessWidget {
                     const SizedBox(width: 10),
                     DecoratedIcon(
                       MdiIcons.loading,
-                      color: Colors.white,
+                      color: kLightColor,
                     )
                   ],
                 )
@@ -53,11 +54,11 @@ class CustomButtonUtil extends StatelessWidget {
                     const SizedBox(width: 10),
                     DecoratedIcon(
                       icon,
-                      color: Colors.white,
+                      color: kLightColor,
                       shadows: const [
                         BoxShadow(
                           blurRadius: 5.0,
-                          color: Colors.white,
+                          color: kLightColor,
                         ),
                       ],
                     )

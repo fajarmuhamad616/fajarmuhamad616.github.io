@@ -1,6 +1,7 @@
 import 'package:fajaralhijr_github_io/controllers/skill_controller.dart';
-import 'package:fajaralhijr_github_io/views/widgets_utils/skill_card_util.dart';
-import 'package:fajaralhijr_github_io/views/widgets_utils/title_section_util.dart';
+import 'package:fajaralhijr_github_io/locale/locale.g.dart';
+import 'package:fajaralhijr_github_io/views/desktop/widgets/skill_card.dart';
+import 'package:fajaralhijr_github_io/views/desktop/widgets/title_section.dart';
 import 'package:flutter/material.dart';
 
 class SkillsSection extends StatelessWidget {
@@ -14,12 +15,14 @@ class SkillsSection extends StatelessWidget {
 
     return Container(
       padding: EdgeInsets.symmetric(
-          horizontal: _screenWidth * .1172, vertical: _screenHeight * .0575),
+        horizontal: _screenWidth * .1172,
+        vertical: _screenHeight * .0575,
+      ),
       width: double.infinity,
       child: Column(
         children: [
-          const TitleSectionUtil(
-            title: "Skills",
+          TitleSectionUtil(
+            title: texts.general.title_skill_section,
             isDesktop: true,
           ),
           GridView.builder(

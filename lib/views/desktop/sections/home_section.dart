@@ -1,10 +1,11 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:fajaralhijr_github_io/locale/locale.g.dart';
-import 'package:fajaralhijr_github_io/utils/fonts_util.dart';
-import 'package:fajaralhijr_github_io/views/widgets_utils/avatar_circle_glow_util.dart';
+import 'package:fajaralhijr_github_io/values/colors.dart';
+import 'package:fajaralhijr_github_io/values/styles.dart';
+import 'package:fajaralhijr_github_io/views/desktop/widgets/avatar_circle_glow.dart';
 import 'package:fajaralhijr_github_io/enum/device_enum.dart';
-import 'package:fajaralhijr_github_io/views/widgets_utils/custom_button_util.dart';
-import 'package:fajaralhijr_github_io/views/widgets_utils/icon_home_hover_util.dart';
+import 'package:fajaralhijr_github_io/views/desktop/widgets/custom_button.dart';
+import 'package:fajaralhijr_github_io/views/desktop/widgets/icon_home_hover.dart';
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
@@ -45,7 +46,7 @@ class _HomeSectionState extends State<HomeSection> {
                 Row(
                   children: [
                     Text(
-                      "Hi, my name ",
+                      texts.general.hi_home_section,
                       style: kTitleNameTextStyle,
                     ),
                     AnimatedTextKit(
@@ -76,9 +77,9 @@ class _HomeSectionState extends State<HomeSection> {
                       repeatForever: true,
                       pause: const Duration(seconds: 0),
                       animatedTexts: [
-                        FlickerAnimatedText(
+                        TypewriterAnimatedText(
                           "Software",
-                          speed: const Duration(seconds: 3),
+                          speed: const Duration(milliseconds: 200),
                           textStyle: kTitleTextStyle.copyWith(
                             color: Colors.green,
                             shadows: [
@@ -89,9 +90,9 @@ class _HomeSectionState extends State<HomeSection> {
                             ],
                           ),
                         ),
-                        FlickerAnimatedText(
+                        TypewriterAnimatedText(
                           "Java",
-                          speed: const Duration(seconds: 3),
+                          speed: const Duration(milliseconds: 200),
                           textStyle: kTitleTextStyle.copyWith(
                             color: Colors.red,
                             shadows: [
@@ -102,9 +103,9 @@ class _HomeSectionState extends State<HomeSection> {
                             ],
                           ),
                         ),
-                        FlickerAnimatedText(
+                        TypewriterAnimatedText(
                           "Flutter",
-                          speed: const Duration(seconds: 3),
+                          speed: const Duration(milliseconds: 200),
                           textStyle: kTitleTextStyle.copyWith(
                             color: Colors.blue,
                             shadows: [
@@ -145,15 +146,15 @@ class _HomeSectionState extends State<HomeSection> {
                   children: [
                     IconHomeHoverUtil(
                       icon: MdiIcons.linkedin,
-                      color: Colors.blue.shade900,
+                      color: kDarkBlueColor,
                     ),
                     IconHomeHoverUtil(
                       icon: MdiIcons.github,
-                      color: Colors.black87,
+                      color: kBlackColor,
                     ),
                     IconHomeHoverUtil(
                       icon: MdiIcons.instagram,
-                      color: Colors.pink.shade900,
+                      color: kPinkColor,
                     ),
                   ],
                 )

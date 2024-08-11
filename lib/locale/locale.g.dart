@@ -6,7 +6,7 @@
 /// Locales: 2
 /// Strings: 674 (337 per locale)
 ///
-/// Built on 2024-08-10 at 20:15 UTC
+/// Built on 2024-08-10 at 21:37 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -465,7 +465,7 @@ class _LocaleExperience$experiences$0i4$Id {
 	String get company => 'PT Telkom Indonesia';
 	String get country => 'Indonesia';
 	String get emp_type => 'Magang';
-	String get position => 'Maintenance Preventive STO (OnSite)';
+	String get position => 'Maintenance Preventive STO (Onsite)';
 	String get site_url => 'www.telkom.co.id';
 	String get start_date => '2018-03-22T00:00:00.000';
 	String get end_date => '2018-06-22T00:00:00.000';
@@ -473,7 +473,7 @@ class _LocaleExperience$experiences$0i4$Id {
 	List<String> get works => [
 		'Melakukan validasi peredaman optik fber pada pemeliharaan jaringan.',
 		'Kerjakan entri label data untuk setiap optik fber ke situs web untuk pemeliharaan jaringan tujuan.',
-		'Dokumentasi perbaikan jaringan optik fber.',
+		'Dokumentasi perbaikan jaringan optik fiber.',
 	];
 	String get is_work_here => 'false';
 }
@@ -665,8 +665,8 @@ class _LocaleProjects$projects$0i7$Id {
 	// Translations
 	String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/obreus_droid.png';
 	String get description => 'Proyek akhir skripsi';
-	String get external_link => '';
-	String get github_link => '';
+	String get external_link => 'https://doi.org/10.5281/zenodo.7665495';
+	String get github_link => 'https://github.com/fajarmuhamad616/ObreusDroid';
 	List<String> get images => [
 	];
 	String get is_personal => 'true';
@@ -1418,7 +1418,7 @@ class _LocaleExperience$experiences$0i4$En implements _LocaleExperience$experien
 	@override String get company => 'PT Telkom Indonesia';
 	@override String get country => 'Indonesia';
 	@override String get emp_type => 'Internship';
-	@override String get position => 'Maintenance Preventive STO (OnSite)';
+	@override String get position => 'Maintenance Preventive STO (Onsite)';
 	@override String get site_url => 'www.telkom.co.id';
 	@override String get start_date => '2018-03-22T00:00:00.000';
 	@override String get end_date => '2018-06-22T00:00:00.000';
@@ -1426,7 +1426,7 @@ class _LocaleExperience$experiences$0i4$En implements _LocaleExperience$experien
 	@override List<String> get works => [
 		'Perform damping validation of fber optic on network maintenance.',
 		'Work on entries label of data for each fber optic into the website to the aim maintenance network.',
-		'Documentation repairing fber optic network.',
+		'Documentation repairing fiber optic network.',
 	];
 	@override String get is_work_here => 'false';
 }
@@ -1440,7 +1440,7 @@ class _LocaleProjects$projects$0i0$En implements _LocaleProjects$projects$0i0$Id
 	// Translations
 	@override String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 	@override String get description => 'Gateway for Sabre';
-	@override String get external_link => 'www.travelagent.co.id';
+	@override String get external_link => 'https://www.travelagent.co.id/';
 	@override String get github_link => '';
 	@override List<String> get images => [
 	];
@@ -1465,7 +1465,7 @@ class _LocaleProjects$projects$0i1$En implements _LocaleProjects$projects$0i1$Id
 	// Translations
 	@override String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 	@override String get description => 'Gateway for SQ Singapore Airlines';
-	@override String get external_link => 'www.travelagent.co.id';
+	@override String get external_link => 'https://www.travelagent.co.id/';
 	@override String get github_link => '';
 	@override List<String> get images => [
 	];
@@ -1490,7 +1490,7 @@ class _LocaleProjects$projects$0i2$En implements _LocaleProjects$projects$0i2$Id
 	// Translations
 	@override String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 	@override String get description => 'Gateway for 8B TransNusa Airlines';
-	@override String get external_link => 'www.travelagent.co.id';
+	@override String get external_link => 'https://www.travelagent.co.id/';
 	@override String get github_link => '';
 	@override List<String> get images => [
 	];
@@ -1515,7 +1515,7 @@ class _LocaleProjects$projects$0i3$En implements _LocaleProjects$projects$0i3$Id
 	// Translations
 	@override String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 	@override String get description => 'Services for Airlines';
-	@override String get external_link => 'www.travelagent.co.id';
+	@override String get external_link => 'https://www.travelagent.co.id/';
 	@override String get github_link => '';
 	@override List<String> get images => [
 	];
@@ -1541,7 +1541,7 @@ class _LocaleProjects$projects$0i4$En implements _LocaleProjects$projects$0i4$Id
 	// Translations
 	@override String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 	@override String get description => 'Services for Hotel';
-	@override String get external_link => 'www.travelagent.co.id';
+	@override String get external_link => 'https://www.travelagent.co.id/';
 	@override String get github_link => '';
 	@override List<String> get images => [
 	];
@@ -1567,7 +1567,7 @@ class _LocaleProjects$projects$0i5$En implements _LocaleProjects$projects$0i5$Id
 	// Translations
 	@override String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 	@override String get description => 'Translocation for Airlines Data';
-	@override String get external_link => 'www.travelagent.co.id';
+	@override String get external_link => 'https://www.travelagent.co.id/';
 	@override String get github_link => '';
 	@override List<String> get images => [
 	];
@@ -1594,7 +1594,7 @@ class _LocaleProjects$projects$0i6$En implements _LocaleProjects$projects$0i6$Id
 	// Translations
 	@override String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 	@override String get description => 'Services for Train';
-	@override String get external_link => 'www.travelagent.co.id';
+	@override String get external_link => 'https://www.travelagent.co.id/';
 	@override String get github_link => '';
 	@override List<String> get images => [
 	];
@@ -1618,8 +1618,8 @@ class _LocaleProjects$projects$0i7$En implements _LocaleProjects$projects$0i7$Id
 	// Translations
 	@override String get cover_img => 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/obreus_droid.png';
 	@override String get description => 'Final project for Thesis';
-	@override String get external_link => '';
-	@override String get github_link => '';
+	@override String get external_link => 'https://doi.org/10.5281/zenodo.7665495';
+	@override String get github_link => 'https://github.com/fajarmuhamad616/ObreusDroid';
 	@override List<String> get images => [
 	];
 	@override String get is_personal => 'true';
@@ -2103,14 +2103,14 @@ extension on Translations {
 			case 'experience.experiences.4.company': return 'PT Telkom Indonesia';
 			case 'experience.experiences.4.country': return 'Indonesia';
 			case 'experience.experiences.4.emp_type': return 'Magang';
-			case 'experience.experiences.4.position': return 'Maintenance Preventive STO (OnSite)';
+			case 'experience.experiences.4.position': return 'Maintenance Preventive STO (Onsite)';
 			case 'experience.experiences.4.site_url': return 'www.telkom.co.id';
 			case 'experience.experiences.4.start_date': return '2018-03-22T00:00:00.000';
 			case 'experience.experiences.4.end_date': return '2018-06-22T00:00:00.000';
 			case 'experience.experiences.4.state': return 'Kota Serang';
 			case 'experience.experiences.4.works.0': return 'Melakukan validasi peredaman optik fber pada pemeliharaan jaringan.';
 			case 'experience.experiences.4.works.1': return 'Kerjakan entri label data untuk setiap optik fber ke situs web untuk pemeliharaan jaringan tujuan.';
-			case 'experience.experiences.4.works.2': return 'Dokumentasi perbaikan jaringan optik fber.';
+			case 'experience.experiences.4.works.2': return 'Dokumentasi perbaikan jaringan optik fiber.';
 			case 'experience.experiences.4.is_work_here': return 'false';
 			case 'general.language': return 'Bahasa';
 			case 'general.indonesia': return 'Indonesia';
@@ -2231,8 +2231,8 @@ extension on Translations {
 			case 'projects.projects.6.type': return 'Services';
 			case 'projects.projects.7.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/obreus_droid.png';
 			case 'projects.projects.7.description': return 'Proyek akhir skripsi';
-			case 'projects.projects.7.external_link': return '';
-			case 'projects.projects.7.github_link': return '';
+			case 'projects.projects.7.external_link': return 'https://doi.org/10.5281/zenodo.7665495';
+			case 'projects.projects.7.github_link': return 'https://github.com/fajarmuhamad616/ObreusDroid';
 			case 'projects.projects.7.is_personal': return 'true';
 			case 'projects.projects.7.name': return 'ObreusDroid (Observer Resource Usage Android)';
 			case 'projects.projects.7.playstore_link': return '';
@@ -2448,14 +2448,14 @@ extension on _LocaleEn {
 			case 'experience.experiences.4.company': return 'PT Telkom Indonesia';
 			case 'experience.experiences.4.country': return 'Indonesia';
 			case 'experience.experiences.4.emp_type': return 'Internship';
-			case 'experience.experiences.4.position': return 'Maintenance Preventive STO (OnSite)';
+			case 'experience.experiences.4.position': return 'Maintenance Preventive STO (Onsite)';
 			case 'experience.experiences.4.site_url': return 'www.telkom.co.id';
 			case 'experience.experiences.4.start_date': return '2018-03-22T00:00:00.000';
 			case 'experience.experiences.4.end_date': return '2018-06-22T00:00:00.000';
 			case 'experience.experiences.4.state': return 'Serang City';
 			case 'experience.experiences.4.works.0': return 'Perform damping validation of fber optic on network maintenance.';
 			case 'experience.experiences.4.works.1': return 'Work on entries label of data for each fber optic into the website to the aim maintenance network.';
-			case 'experience.experiences.4.works.2': return 'Documentation repairing fber optic network.';
+			case 'experience.experiences.4.works.2': return 'Documentation repairing fiber optic network.';
 			case 'experience.experiences.4.is_work_here': return 'false';
 			case 'general.language': return 'Language';
 			case 'general.indonesia': return 'Indonesia';
@@ -2489,7 +2489,7 @@ extension on _LocaleEn {
 			case 'general.copy': return 'Copied to clipboard';
 			case 'projects.projects.0.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 			case 'projects.projects.0.description': return 'Gateway for Sabre';
-			case 'projects.projects.0.external_link': return 'www.travelagent.co.id';
+			case 'projects.projects.0.external_link': return 'https://www.travelagent.co.id/';
 			case 'projects.projects.0.github_link': return '';
 			case 'projects.projects.0.is_personal': return 'false';
 			case 'projects.projects.0.name': return 'Airline Gateway Sabre (Project name ommited)';
@@ -2501,7 +2501,7 @@ extension on _LocaleEn {
 			case 'projects.projects.0.type': return 'Gateway';
 			case 'projects.projects.1.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 			case 'projects.projects.1.description': return 'Gateway for SQ Singapore Airlines';
-			case 'projects.projects.1.external_link': return 'www.travelagent.co.id';
+			case 'projects.projects.1.external_link': return 'https://www.travelagent.co.id/';
 			case 'projects.projects.1.github_link': return '';
 			case 'projects.projects.1.is_personal': return 'false';
 			case 'projects.projects.1.name': return 'Airline Gateway SQ Singapore Airlines (Project name ommited)';
@@ -2513,7 +2513,7 @@ extension on _LocaleEn {
 			case 'projects.projects.1.type': return 'Gateway';
 			case 'projects.projects.2.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 			case 'projects.projects.2.description': return 'Gateway for 8B TransNusa Airlines';
-			case 'projects.projects.2.external_link': return 'www.travelagent.co.id';
+			case 'projects.projects.2.external_link': return 'https://www.travelagent.co.id/';
 			case 'projects.projects.2.github_link': return '';
 			case 'projects.projects.2.is_personal': return 'false';
 			case 'projects.projects.2.name': return 'Airline Gateway 8B TransNusa Airlines (Project name ommited)';
@@ -2525,7 +2525,7 @@ extension on _LocaleEn {
 			case 'projects.projects.2.type': return 'Gateway';
 			case 'projects.projects.3.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 			case 'projects.projects.3.description': return 'Services for Airlines';
-			case 'projects.projects.3.external_link': return 'www.travelagent.co.id';
+			case 'projects.projects.3.external_link': return 'https://www.travelagent.co.id/';
 			case 'projects.projects.3.github_link': return '';
 			case 'projects.projects.3.is_personal': return 'false';
 			case 'projects.projects.3.name': return 'Airline Booking Service (Project name ommited)';
@@ -2538,7 +2538,7 @@ extension on _LocaleEn {
 			case 'projects.projects.3.type': return 'Services';
 			case 'projects.projects.4.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 			case 'projects.projects.4.description': return 'Services for Hotel';
-			case 'projects.projects.4.external_link': return 'www.travelagent.co.id';
+			case 'projects.projects.4.external_link': return 'https://www.travelagent.co.id/';
 			case 'projects.projects.4.github_link': return '';
 			case 'projects.projects.4.is_personal': return 'false';
 			case 'projects.projects.4.name': return 'Hotel Booking Service (Project name ommited)';
@@ -2551,7 +2551,7 @@ extension on _LocaleEn {
 			case 'projects.projects.4.type': return 'Services';
 			case 'projects.projects.5.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 			case 'projects.projects.5.description': return 'Translocation for Airlines Data';
-			case 'projects.projects.5.external_link': return 'www.travelagent.co.id';
+			case 'projects.projects.5.external_link': return 'https://www.travelagent.co.id/';
 			case 'projects.projects.5.github_link': return '';
 			case 'projects.projects.5.is_personal': return 'false';
 			case 'projects.projects.5.name': return 'Airline Translocation (Project name ommited)';
@@ -2565,7 +2565,7 @@ extension on _LocaleEn {
 			case 'projects.projects.5.type': return 'Services';
 			case 'projects.projects.6.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png';
 			case 'projects.projects.6.description': return 'Services for Train';
-			case 'projects.projects.6.external_link': return 'www.travelagent.co.id';
+			case 'projects.projects.6.external_link': return 'https://www.travelagent.co.id/';
 			case 'projects.projects.6.github_link': return '';
 			case 'projects.projects.6.is_personal': return 'false';
 			case 'projects.projects.6.name': return 'Train Availability Services (Project name ommited)';
@@ -2576,8 +2576,8 @@ extension on _LocaleEn {
 			case 'projects.projects.6.type': return 'Services';
 			case 'projects.projects.7.cover_img': return 'https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/obreus_droid.png';
 			case 'projects.projects.7.description': return 'Final project for Thesis';
-			case 'projects.projects.7.external_link': return '';
-			case 'projects.projects.7.github_link': return '';
+			case 'projects.projects.7.external_link': return 'https://doi.org/10.5281/zenodo.7665495';
+			case 'projects.projects.7.github_link': return 'https://github.com/fajarmuhamad616/ObreusDroid';
 			case 'projects.projects.7.is_personal': return 'true';
 			case 'projects.projects.7.name': return 'ObreusDroid (Observer Resource Usage Android)';
 			case 'projects.projects.7.playstore_link': return '';

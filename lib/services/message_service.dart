@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_app_check/firebase_app_check.dart';
 import 'package:http/http.dart' as http;
+import 'package:url_launcher/url_launcher.dart';
 
 class MessageService {
   static Future<bool> sendMessage({
@@ -61,9 +62,8 @@ Future<bool> isRecaptchaSuccess(String recaptchaToken) async {
   }
 }
 
-downloadCV() {
-  // String url = 'https://drive.google.com/uc?id=1egQA4dMBeMb8SQIx4aX6coryumbxsBXX&export=download';
-  // AnchorElement anchorElement = AnchorElement(href: url);
-  // anchorElement.download = url;
-  // anchorElement.click();
+Future<bool> downloadCV() {
+  String url =
+      'https://drive.google.com/drive/folders/1X28k_UVTyccPXwg43MwqZ3SyXnnYuaUR?usp=sharing';
+  return launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication);
 }

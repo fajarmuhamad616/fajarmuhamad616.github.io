@@ -1,7 +1,8 @@
 import 'package:fajaralhijr_github_io/controllers/about_controller.dart';
-import 'package:fajaralhijr_github_io/utils/fonts_util.dart';
-import 'package:fajaralhijr_github_io/views/widgets_utils/about_card_util.dart';
-import 'package:fajaralhijr_github_io/views/widgets_utils/title_section_util.dart';
+import 'package:fajaralhijr_github_io/locale/locale.g.dart';
+import 'package:fajaralhijr_github_io/values/styles.dart';
+import 'package:fajaralhijr_github_io/views/desktop/widgets/about_card.dart';
+import 'package:fajaralhijr_github_io/views/desktop/widgets/title_section.dart';
 import 'package:flutter/material.dart';
 
 class AboutSection extends StatelessWidget {
@@ -15,15 +16,17 @@ class AboutSection extends StatelessWidget {
 
     return Container(
       padding: EdgeInsets.symmetric(
-          horizontal: _screenWidth * .1172, vertical: _screenHeight * .065),
+        horizontal: _screenWidth * .1172,
+        vertical: _screenHeight * .065,
+      ),
       width: double.infinity,
       child: Column(
         children: [
           TitleSectionUtil(
-            title: "About",
+            title: texts.general.title_about_section,
             isDesktop: true,
           ),
-          SizedBox(
+          const SizedBox(
             width: 10,
           ),
           Row(

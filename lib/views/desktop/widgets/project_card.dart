@@ -1,8 +1,7 @@
-// ignore_for_file: avoid_unnecessary_containers
-
 import 'package:fajaralhijr_github_io/models/project_model.dart';
-import 'package:fajaralhijr_github_io/utils/fonts_util.dart';
-import 'package:fajaralhijr_github_io/views/widgets_utils/project_icon_btn_util.dart';
+import 'package:fajaralhijr_github_io/values/colors.dart';
+import 'package:fajaralhijr_github_io/values/styles.dart';
+import 'package:fajaralhijr_github_io/views/desktop/widgets/project_icon_btn.dart';
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
@@ -25,7 +24,9 @@ class _ProjectCardState extends State<ProjectCard> {
   Widget build(BuildContext context) {
     double _screenWidth = MediaQuery.of(context).size.width;
     double _screenHeight = MediaQuery.of(context).size.height;
-    if (_screenHeight < 700) _screenHeight = 700;
+    if (_screenHeight < 700) {
+      _screenHeight = 700;
+    }
     return Column(
       children: [
         MouseRegion(
@@ -65,9 +66,9 @@ class _ProjectCardState extends State<ProjectCard> {
                           ? _screenWidth * .549
                           : _screenWidth * .512,
                       decoration: BoxDecoration(
-                        color: Colors.green.shade900,
+                        color: kPrimaryColor,
                         border: Border.all(
-                          color: Colors.green,
+                          color: kPrimaryColor,
                           width: 2.0,
                         ),
                         borderRadius: BorderRadius.circular(10.0),
@@ -78,9 +79,8 @@ class _ProjectCardState extends State<ProjectCard> {
                           widget.project.cover,
                           fit: BoxFit.cover,
                           colorBlendMode: BlendMode.srcOver,
-                          color: _isHovered
-                              ? null
-                              : Colors.green.shade900.withOpacity(0.1),
+                          color:
+                              _isHovered ? null : kPrimaryColor.withOpacity(.3),
                         ),
                       ),
                     ),
@@ -133,9 +133,9 @@ class _ProjectCardState extends State<ProjectCard> {
                                         vertical: 6,
                                       ),
                                       decoration: BoxDecoration(
-                                        color: Colors.green.withOpacity(.1),
+                                        color: kPrimaryColor.withOpacity(.3),
                                         border: Border.all(
-                                          color: Colors.green,
+                                          color: kPrimaryColor,
                                           width: 2.0,
                                         ),
                                         borderRadius:
@@ -158,8 +158,7 @@ class _ProjectCardState extends State<ProjectCard> {
                                 boxShadow: [
                                   BoxShadow(
                                     offset: const Offset(3, 5),
-                                    color:
-                                        const Color(0xff000000).withOpacity(.1),
+                                    color: kBlackColor.withOpacity(.1),
                                     blurRadius: 2.0,
                                     spreadRadius: 2.0,
                                   ),
@@ -197,12 +196,6 @@ class _ProjectCardState extends State<ProjectCard> {
             ),
           ),
         ),
-        // const Divider(
-        //   color: kprimaryColor,
-        //   thickness: 3,
-        //   endIndent: 450,
-        //   indent: 450,
-        // ),
       ],
     );
   }

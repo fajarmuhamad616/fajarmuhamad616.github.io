@@ -1,11 +1,12 @@
 import 'package:fajaralhijr_github_io/controllers/projects_controller.dart';
 import 'package:fajaralhijr_github_io/locale/locale.g.dart';
 import 'package:fajaralhijr_github_io/models/tab_button_model.dart';
-import 'package:fajaralhijr_github_io/views/widgets_utils/custom_button_util.dart';
-import 'package:fajaralhijr_github_io/views/widgets_utils/project_card_util.dart';
-import 'package:fajaralhijr_github_io/views/widgets_utils/project_custom_tab_btn.dart';
-import 'package:fajaralhijr_github_io/views/widgets_utils/projects_desktop_screen_util.dart';
-import 'package:fajaralhijr_github_io/views/widgets_utils/title_section_util.dart';
+import 'package:fajaralhijr_github_io/values/colors.dart';
+import 'package:fajaralhijr_github_io/views/desktop/widgets/custom_button.dart';
+import 'package:fajaralhijr_github_io/views/desktop/widgets/project_card.dart';
+import 'package:fajaralhijr_github_io/views/desktop/widgets/project_custom_tab_btn.dart';
+import 'package:fajaralhijr_github_io/views/desktop/additional_screens/projects_desktop_screen.dart';
+import 'package:fajaralhijr_github_io/views/desktop/widgets/title_section.dart';
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
@@ -27,13 +28,15 @@ class _ProjectsSectionState extends State<ProjectsSection> {
 
     tabs = [
       TabButtonModel(
-          title: texts.general.title_personal_projects_project_section,
-          icon: Icons.folder,
-          isSelected: isViewPersonal),
+        title: texts.general.title_personal_projects_project_section,
+        icon: Icons.folder,
+        isSelected: isViewPersonal,
+      ),
       TabButtonModel(
-          title: texts.general.title_client_projects_project_section,
-          icon: Icons.laptop_mac_rounded,
-          isSelected: !isViewPersonal),
+        title: texts.general.title_client_projects_project_section,
+        icon: Icons.laptop_mac_rounded,
+        isSelected: !isViewPersonal,
+      ),
     ];
 
     return Container(
@@ -55,7 +58,7 @@ class _ProjectsSectionState extends State<ProjectsSection> {
               borderRadius: BorderRadius.circular(50.0),
               boxShadow: [
                 BoxShadow(
-                  color: const Color(0xff000000).withOpacity(0.10),
+                  color: kBlackColor.withOpacity(0.10),
                   blurRadius: 4.0,
                   offset: const Offset(0.0, 3.0),
                 )
@@ -67,11 +70,6 @@ class _ProjectsSectionState extends State<ProjectsSection> {
                         tab: tab,
                         click: () {
                           setState(() {
-                            // tabs.forEach((element) {
-                            //   element.isSelected = false;
-                            // });
-                            // tab.isSelected = true;
-
                             int tabIndex = tabs.indexOf(tab);
                             if (tabIndex == 1) {
                               isViewPersonal = false;
@@ -120,12 +118,15 @@ class _ProjectsSectionState extends State<ProjectsSection> {
             height: 20,
           ),
           CustomButtonUtil(
+            text: texts.general.browse_projects_home_section,
             icon: MdiIcons.folder,
             onClick: () {
-              Navigator.of(context).push(MaterialPageRoute(
-                  builder: (context) => const ProjectsDesktopScreen()));
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => const ProjectsDesktopScreen(),
+                ),
+              );
             },
-            text: "Show All",
           )
         ],
       ),

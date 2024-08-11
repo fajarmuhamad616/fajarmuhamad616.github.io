@@ -1,10 +1,11 @@
 import 'package:fajaralhijr_github_io/controllers/projects_controller.dart';
-import 'package:fajaralhijr_github_io/utils/fonts_util.dart';
-import 'package:fajaralhijr_github_io/views/widgets_utils/project_single_card.dart';
+import 'package:fajaralhijr_github_io/locale/locale.g.dart';
+import 'package:fajaralhijr_github_io/values/styles.dart';
+import 'package:fajaralhijr_github_io/views/desktop/widgets/project_single_card.dart';
 import 'package:flutter/material.dart';
 
 class ProjectsDesktopScreen extends StatelessWidget {
-  const ProjectsDesktopScreen({Key? key}) : super(key: key);
+  const ProjectsDesktopScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -69,7 +70,7 @@ class ProjectsDesktopScreen extends StatelessWidget {
             Container(
               margin: const EdgeInsets.symmetric(vertical: 30),
               child: Text(
-                "All Projects",
+                texts.general.title_all_projects_project_section,
                 style: kMiniTitleTextStyleWhite,
               ),
             ),
@@ -84,8 +85,8 @@ class ProjectsDesktopScreen extends StatelessWidget {
                   crossAxisSpacing: 20.0,
                   mainAxisSpacing: 20.0,
                 ),
-                itemBuilder: (context, index) =>
-                    SingleProjectCard(proj: projectsController.projects[index]),
+                itemBuilder: (context, index) => SingleProjectCard(
+                    project: projectsController.projects[index]),
                 itemCount: projectsController.projects.length,
                 shrinkWrap: true,
                 physics: const NeverScrollableScrollPhysics(),
