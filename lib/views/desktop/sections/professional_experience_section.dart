@@ -3,7 +3,7 @@ import 'package:fajaralhijr_github_io/locale/locale.g.dart';
 import 'package:fajaralhijr_github_io/utils/external_app_util.dart';
 import 'package:fajaralhijr_github_io/values/colors.dart';
 import 'package:fajaralhijr_github_io/values/styles.dart';
-import 'package:fajaralhijr_github_io/views/desktop/widgets/title_section.dart';
+import 'package:fajaralhijr_github_io/widgets/title_section.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
@@ -29,7 +29,7 @@ class ProfessionalExperienceSection extends StatelessWidget {
       width: double.infinity,
       child: Column(
         children: [
-          TitleSectionUtil(
+          TitleSection(
             title: texts.general.title_experience_section,
             isDesktop: true,
           ),

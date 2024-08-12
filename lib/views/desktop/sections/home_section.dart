@@ -2,7 +2,7 @@ import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:fajaralhijr_github_io/locale/locale.g.dart';
 import 'package:fajaralhijr_github_io/values/colors.dart';
 import 'package:fajaralhijr_github_io/values/styles.dart';
-import 'package:fajaralhijr_github_io/views/desktop/widgets/avatar_circle_glow.dart';
+import 'package:fajaralhijr_github_io/widgets/avatar_circle_glow.dart';
 import 'package:fajaralhijr_github_io/enum/device_enum.dart';
 import 'package:fajaralhijr_github_io/views/desktop/widgets/custom_button.dart';
 import 'package:fajaralhijr_github_io/views/desktop/widgets/icon_home_hover.dart';
@@ -164,7 +164,7 @@ class _HomeSectionState extends State<HomeSection> {
           Expanded(
             child: Container(
               padding: const EdgeInsets.all(70),
-              child: AvatarCircleGlowUtil(
+              child: AvatarCircleGlow(
                 screenWidth: _screenWidth,
                 device: DeviceEnum.DESKTOP,
               ),

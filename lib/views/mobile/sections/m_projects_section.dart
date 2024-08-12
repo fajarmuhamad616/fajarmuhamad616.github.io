@@ -2,58 +2,53 @@ import 'package:fajaralhijr_github_io/controllers/projects_controller.dart';
 import 'package:fajaralhijr_github_io/locale/locale.g.dart';
 import 'package:fajaralhijr_github_io/models/tab_button_model.dart';
 import 'package:fajaralhijr_github_io/values/colors.dart';
-import 'package:fajaralhijr_github_io/views/desktop/widgets/custom_button.dart';
-import 'package:fajaralhijr_github_io/views/desktop/widgets/project_card.dart';
-import 'package:fajaralhijr_github_io/views/desktop/widgets/project_custom_tab_btn.dart';
-import 'package:fajaralhijr_github_io/views/desktop/additional_screens/projects_desktop_screen.dart';
 import 'package:fajaralhijr_github_io/widgets/title_section.dart';
+import 'package:fajaralhijr_github_io/views/mobile/widgets/m_project_custom_tab_btn.dart';
+import 'package:fajaralhijr_github_io/views/mobile/widgets/m_project_single_card.dart';
 import 'package:flutter/material.dart';
-import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
-class ProjectsSection extends StatefulWidget {
-  const ProjectsSection({super.key});
+class MProjectsSection extends StatefulWidget {
+  const MProjectsSection({super.key});
 
   @override
-  State<ProjectsSection> createState() => _ProjectsSectionState();
+  State<MProjectsSection> createState() => _MProjectsSectionState();
 }
 
-class _ProjectsSectionState extends State<ProjectsSection> {
+class _MProjectsSectionState extends State<MProjectsSection> {
   late List<TabButtonModel> tabs;
   bool isViewPersonal = true;
   @override
   Widget build(BuildContext context) {
-    double _screenWidth = MediaQuery.of(context).size.width;
-    double _screenHeight = MediaQuery.of(context).size.height;
     ProjectsController projectsController = ProjectsController();
 
     tabs = [
       TabButtonModel(
-        title: texts.general.title_personal_projects_project_section,
+        title: texts.general.m_title_personal_projects_project_section,
         icon: Icons.folder,
         isSelected: isViewPersonal,
       ),
       TabButtonModel(
-        title: texts.general.title_client_projects_project_section,
+        title: texts.general.m_title_client_projects_project_section,
         icon: Icons.laptop_mac_rounded,
         isSelected: !isViewPersonal,
       ),
     ];
 
     return Container(
-      padding: EdgeInsets.symmetric(
-        horizontal: _screenWidth * .1172,
-        vertical: _screenHeight * .065,
+      padding: const EdgeInsets.symmetric(
+        horizontal: 20,
+        vertical: 50,
       ),
       width: double.infinity,
       child: Column(
         children: [
           TitleSection(
             title: texts.general.title_project_section,
-            isDesktop: true,
+            isDesktop: false,
           ),
           Container(
             padding: const EdgeInsets.all(12),
-            width: _screenWidth * .45,
+            width: double.infinity,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(50.0),
               boxShadow: [
@@ -66,19 +61,21 @@ class _ProjectsSectionState extends State<ProjectsSection> {
             ),
             child: Row(
               children: tabs
-                  .map((tab) => ProjectCustomTabBtn(
-                        tab: tab,
-                        click: () {
-                          setState(() {
-                            int tabIndex = tabs.indexOf(tab);
-                            if (tabIndex == 1) {
-                              isViewPersonal = false;
-                            } else {
-                              isViewPersonal = true;
-                            }
-                          });
-                        },
-                      ))
+                  .map(
+                    (tab) => MProjectCustomTabBtn(
+                      tab: tab,
+                      click: () {
+                        setState(() {
+                          int tabIndex = tabs.indexOf(tab);
+                          if (tabIndex == 1) {
+                            isViewPersonal = false;
+                          } else {
+                            isViewPersonal = true;
+                          }
+                        });
+                      },
+                    ),
+                  )
                   .toList(),
             ),
           ),
@@ -93,7 +90,7 @@ class _ProjectsSectionState extends State<ProjectsSection> {
                   .isEmpty
               ? const CircularProgressIndicator()
               : ListView.builder(
-                  itemBuilder: (context, index) => ProjectCard(
+                  itemBuilder: (context, index) => MProjectSingleCard(
                       project: projectsController.projects
                           .where((element) => tabs.first.isSelected
                               ? element.isPersonal
@@ -114,20 +111,6 @@ class _ProjectsSectionState extends State<ProjectsSection> {
                           .length,
                   shrinkWrap: true,
                 ),
-          const SizedBox(
-            height: 20,
-          ),
-          CustomButtonUtil(
-            text: texts.general.browse_projects_home_section,
-            icon: MdiIcons.folder,
-            onClick: () {
-              Navigator.of(context).push(
-                MaterialPageRoute(
-                  builder: (context) => const ProjectsDesktopScreen(),
-                ),
-              );
-            },
-          )
         ],
       ),
     );

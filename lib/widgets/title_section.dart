@@ -2,10 +2,10 @@ import 'package:fajaralhijr_github_io/values/colors.dart';
 import 'package:fajaralhijr_github_io/values/styles.dart';
 import 'package:flutter/material.dart';
 
-class TitleSectionUtil extends StatelessWidget {
+class TitleSection extends StatelessWidget {
   final String title;
   final bool isDesktop;
-  const TitleSectionUtil({
+  const TitleSection({
     super.key,
     required this.title,
     required this.isDesktop,

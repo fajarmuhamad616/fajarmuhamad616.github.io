@@ -6,7 +6,7 @@
 /// Locales: 2
 /// Strings: 674 (337 per locale)
 ///
-/// Built on 2024-08-10 at 21:37 UTC
+/// Built on 2024-08-12 at 19:58 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -216,7 +216,7 @@ class _LocaleGeneralId {
 	String get title_personal_projects_project_section => 'Proyek Personal';
 	String get title_client_projects_project_section => 'Proyek Pekerjaan/Klien';
 	String get m_title_personal_projects_project_section => 'Personal';
-	String get m_title_client_projects_project_section => 'Pekerjaan/Klien';
+	String get m_title_client_projects_project_section => 'Klien';
 	String get title_all_projects_project_section => 'Semua Proyek';
 	String get title_skill_section => 'Keterampilan';
 	String get introduce_home_my_name => 'Fajar Muhammad Al-Hijri';
@@ -2132,7 +2132,7 @@ extension on Translations {
 			case 'general.title_personal_projects_project_section': return 'Proyek Personal';
 			case 'general.title_client_projects_project_section': return 'Proyek Pekerjaan/Klien';
 			case 'general.m_title_personal_projects_project_section': return 'Personal';
-			case 'general.m_title_client_projects_project_section': return 'Pekerjaan/Klien';
+			case 'general.m_title_client_projects_project_section': return 'Klien';
 			case 'general.title_all_projects_project_section': return 'Semua Proyek';
 			case 'general.title_skill_section': return 'Keterampilan';
 			case 'general.introduce_home_my_name': return 'Fajar Muhammad Al-Hijri';

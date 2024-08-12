@@ -2,7 +2,7 @@ import 'package:fajaralhijr_github_io/controllers/about_controller.dart';
 import 'package:fajaralhijr_github_io/locale/locale.g.dart';
 import 'package:fajaralhijr_github_io/values/styles.dart';
 import 'package:fajaralhijr_github_io/views/desktop/widgets/about_card.dart';
-import 'package:fajaralhijr_github_io/views/desktop/widgets/title_section.dart';
+import 'package:fajaralhijr_github_io/widgets/title_section.dart';
 import 'package:flutter/material.dart';
 
 class AboutSection extends StatelessWidget {
@@ -22,7 +22,7 @@ class AboutSection extends StatelessWidget {
       width: double.infinity,
       child: Column(
         children: [
-          TitleSectionUtil(
+          TitleSection(
             title: texts.general.title_about_section,
             isDesktop: true,
           ),

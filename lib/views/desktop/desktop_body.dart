@@ -1,6 +1,8 @@
 import 'package:blurrycontainer/blurrycontainer.dart';
 import 'package:country_flags/country_flags.dart';
+import 'package:fajaralhijr_github_io/utils/external_app_util.dart';
 import 'package:fajaralhijr_github_io/values/colors.dart';
+import 'package:fajaralhijr_github_io/values/strings.dart';
 import 'package:fajaralhijr_github_io/views/desktop/sections/footer_section.dart';
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
@@ -15,9 +17,9 @@ import 'package:fajaralhijr_github_io/views/desktop/sections/home_section.dart';
 import 'package:fajaralhijr_github_io/views/desktop/sections/professional_experience_section.dart';
 import 'package:fajaralhijr_github_io/views/desktop/sections/projects_section.dart';
 import 'package:fajaralhijr_github_io/views/desktop/sections/skills_section.dart';
-import 'package:fajaralhijr_github_io/views/desktop/widgets/custom_button_locale.dart';
+import 'package:fajaralhijr_github_io/widgets/custom_button_locale.dart';
 import 'package:fajaralhijr_github_io/views/desktop/widgets/custom_button.dart';
-import 'package:fajaralhijr_github_io/views/desktop/widgets/text_hover_navigation_top.dart';
+import 'package:fajaralhijr_github_io/widgets/text_hover_navigation_top.dart';
 
 class DesktopBody extends StatefulWidget {
   const DesktopBody({super.key});
@@ -54,6 +56,18 @@ class _DesktopBodyState extends State<DesktopBody> {
     double _screenWidth = MediaQuery.of(context).size.width;
 
     return Scaffold(
+      floatingActionButton: FloatingActionButton.extended(
+        backgroundColor: kPrimaryColor,
+        onPressed: () async {
+          ExternalAppUtil.redirectToLink(url: linkWhatsApp);
+        },
+        label: Text("Chat ${name.split(" ").first}"),
+        icon: Icon(
+          MdiIcons.whatsapp,
+          size: 30,
+          color: kLightColor,
+        ),
+      ),
       body: Stack(
         children: [
           SingleChildScrollView(
@@ -84,127 +98,127 @@ class _DesktopBodyState extends State<DesktopBody> {
               ],
             ),
           ),
+          _topNavigationBar(_screenWidth),
+        ],
+      ),
+    );
+  }
 
-          /**
-           * Top Navigation Bar
-           */
-          Positioned(
-            child: Container(
-              padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 20),
-              margin: EdgeInsets.symmetric(horizontal: _screenWidth * .059),
-              child: BlurryContainer(
-                borderRadius: BorderRadius.circular(64),
-                color: kDarkColor,
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    MouseRegion(
-                      cursor: SystemMouseCursors.click,
-                      child: GestureDetector(
-                        onTap: () {
-                          scrollToItem(homeKey);
-                        },
-                        child: const CircleAvatar(
-                          foregroundImage: AssetImage('assets/my-profile.jpg'),
-                          backgroundColor: kGreySemiLightColor,
-                          radius: 23,
-                        ),
-                      ),
-                    ),
-                    const SizedBox(
-                      width: 15,
-                    ),
-                    Text(
-                      'Fajar Muhammad Al-Hijri',
-                      style: kTextStyleWhite.copyWith(
-                        fontSize: 15,
-                      ),
-                    ),
-                    Icon(
-                      MdiIcons.leaf,
-                      color: kGreenColor,
-                    ),
-                    const Spacer(),
-                    TextHoverNavigationTopUtil(
-                      text: _navigationTopController.navigation(0),
-                      onClick: () => scrollToItem(homeKey),
-                      width: homeWidth,
-                    ),
-                    const SizedBox(
-                      width: 18.0,
-                    ),
-                    TextHoverNavigationTopUtil(
-                      text: _navigationTopController.navigation(1),
-                      onClick: () => scrollToItem(aboutKey),
-                      width: aboutWidth,
-                    ),
-                    const SizedBox(
-                      width: 18.0,
-                    ),
-                    TextHoverNavigationTopUtil(
-                      text: _navigationTopController.navigation(2),
-                      onClick: () => scrollToItem(skillsKey),
-                      width: skillsWidth,
-                    ),
-                    const SizedBox(
-                      width: 18.0,
-                    ),
-                    TextHoverNavigationTopUtil(
-                      text: _navigationTopController.navigation(3),
-                      onClick: () => scrollToItem(experienceKey),
-                      width: experienceWidth,
-                    ),
-                    const SizedBox(
-                      width: 18.0,
-                    ),
-                    TextHoverNavigationTopUtil(
-                      text: _navigationTopController.navigation(4),
-                      onClick: () => scrollToItem(projectsKey),
-                      width: projectsWidth,
-                    ),
-                    const SizedBox(
-                      width: 18.0,
-                    ),
-                    TextHoverNavigationTopUtil(
-                      text: _navigationTopController.navigation(5),
-                      onClick: () => scrollToItem(contactKey),
-                      width: contactWidth,
-                    ),
-                    const SizedBox(
-                      width: 18.0,
-                    ),
-                    CustomButtonUtil(
-                      icon: MdiIcons.download,
-                      onClick: () => downloadCV(),
-                      text: _navigationTopController.navigation(6),
-                    ),
-                    const SizedBox(
-                      width: 10,
-                    ),
-                    _navigationTopController.currentLocale ==
-                            _navigationTopController.id
-                        ? CustomButtonLocaleUtil(
-                            hint: texts.general.indonesia,
-                            icon: CountryFlag.fromCountryCode("ID"),
-                            click: () async {
-                              _navigationTopController
-                                  .changeLocale(_navigationTopController.en);
-                            },
-                          )
-                        : CustomButtonLocaleUtil(
-                            hint: texts.general.english,
-                            icon: CountryFlag.fromCountryCode("US"),
-                            click: () async {
-                              _navigationTopController
-                                  .changeLocale(_navigationTopController.id);
-                            },
-                          ),
-                  ],
+  Positioned _topNavigationBar(double _screenWidth) {
+    return Positioned(
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 20),
+        margin: EdgeInsets.symmetric(horizontal: _screenWidth * .059),
+        child: BlurryContainer(
+          borderRadius: BorderRadius.circular(64),
+          color: kDarkColor,
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              MouseRegion(
+                cursor: SystemMouseCursors.click,
+                child: GestureDetector(
+                  onTap: () {
+                    scrollToItem(homeKey);
+                  },
+                  child: const CircleAvatar(
+                    foregroundImage: AssetImage('assets/my-profile.jpg'),
+                    backgroundColor: kGreySemiLightColor,
+                    radius: 23,
+                  ),
                 ),
               ),
-            ),
+              const SizedBox(
+                width: 15,
+              ),
+              Text(
+                'Fajar Muhammad Al-Hijri',
+                style: kTextStyleWhite.copyWith(
+                  fontSize: 15,
+                ),
+              ),
+              Icon(
+                MdiIcons.leaf,
+                color: kGreenColor,
+              ),
+              const Spacer(),
+              TextHoverNavigationTopUtil(
+                text: _navigationTopController.navigation(0),
+                onClick: () => scrollToItem(homeKey),
+                width: homeWidth,
+              ),
+              const SizedBox(
+                width: 18.0,
+              ),
+              TextHoverNavigationTopUtil(
+                text: _navigationTopController.navigation(1),
+                onClick: () => scrollToItem(aboutKey),
+                width: aboutWidth,
+              ),
+              const SizedBox(
+                width: 18.0,
+              ),
+              TextHoverNavigationTopUtil(
+                text: _navigationTopController.navigation(2),
+                onClick: () => scrollToItem(skillsKey),
+                width: skillsWidth,
+              ),
+              const SizedBox(
+                width: 18.0,
+              ),
+              TextHoverNavigationTopUtil(
+                text: _navigationTopController.navigation(3),
+                onClick: () => scrollToItem(experienceKey),
+                width: experienceWidth,
+              ),
+              const SizedBox(
+                width: 18.0,
+              ),
+              TextHoverNavigationTopUtil(
+                text: _navigationTopController.navigation(4),
+                onClick: () => scrollToItem(projectsKey),
+                width: projectsWidth,
+              ),
+              const SizedBox(
+                width: 18.0,
+              ),
+              TextHoverNavigationTopUtil(
+                text: _navigationTopController.navigation(5),
+                onClick: () => scrollToItem(contactKey),
+                width: contactWidth,
+              ),
+              const SizedBox(
+                width: 18.0,
+              ),
+              CustomButtonUtil(
+                icon: MdiIcons.download,
+                onClick: () => downloadCV(),
+                text: _navigationTopController.navigation(6),
+              ),
+              const SizedBox(
+                width: 10,
+              ),
+              _navigationTopController.currentLocale ==
+                      _navigationTopController.id
+                  ? CustomButtonLocaleUtil(
+                      hint: texts.general.indonesia,
+                      icon: CountryFlag.fromCountryCode("ID"),
+                      click: () async {
+                        _navigationTopController
+                            .changeLocale(_navigationTopController.en);
+                      },
+                    )
+                  : CustomButtonLocaleUtil(
+                      hint: texts.general.english,
+                      icon: CountryFlag.fromCountryCode("US"),
+                      click: () async {
+                        _navigationTopController
+                            .changeLocale(_navigationTopController.id);
+                      },
+                    ),
+            ],
           ),
-        ],
+        ),
       ),
     );
   }

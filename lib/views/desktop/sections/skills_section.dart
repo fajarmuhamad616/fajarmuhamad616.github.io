@@ -1,7 +1,7 @@
 import 'package:fajaralhijr_github_io/controllers/skill_controller.dart';
 import 'package:fajaralhijr_github_io/locale/locale.g.dart';
 import 'package:fajaralhijr_github_io/views/desktop/widgets/skill_card.dart';
-import 'package:fajaralhijr_github_io/views/desktop/widgets/title_section.dart';
+import 'package:fajaralhijr_github_io/widgets/title_section.dart';
 import 'package:flutter/material.dart';
 
 class SkillsSection extends StatelessWidget {
@@ -21,7 +21,7 @@ class SkillsSection extends StatelessWidget {
       width: double.infinity,
       child: Column(
         children: [
-          TitleSectionUtil(
+          TitleSection(
             title: texts.general.title_skill_section,
             isDesktop: true,
           ),

@@ -8,7 +8,7 @@ import 'package:fajaralhijr_github_io/views/desktop/widgets/contact_card.dart';
 // import 'package:fajaralhijr_github_io/views/widgets_utils/custom_button_util.dart';
 import 'package:fajaralhijr_github_io/views/desktop/widgets/icon_home_hover.dart';
 // import 'package:fajaralhijr_github_io/views/widgets_utils/input_field_util.dart';
-import 'package:fajaralhijr_github_io/views/desktop/widgets/title_section.dart';
+import 'package:fajaralhijr_github_io/widgets/title_section.dart';
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
@@ -67,7 +67,7 @@ class _ContactSectionState extends State<ContactSection> {
             margin: const EdgeInsets.symmetric(vertical: 40),
             child: Column(
               children: [
-                TitleSectionUtil(
+                TitleSection(
                   title: texts.general.title_contact_section,
                   isDesktop: true,
                 ),

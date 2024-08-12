@@ -3,11 +3,11 @@ import 'package:fajaralhijr_github_io/enum/device_enum.dart';
 import 'package:fajaralhijr_github_io/values/colors.dart';
 import 'package:flutter/material.dart';
 
-class AvatarCircleGlowUtil extends StatelessWidget {
+class AvatarCircleGlow extends StatelessWidget {
   final double screenWidth;
   final DeviceEnum device;
 
-  const AvatarCircleGlowUtil({
+  const AvatarCircleGlow({
     super.key,
     required this.screenWidth,
     required this.device,
@@ -16,6 +16,7 @@ class AvatarCircleGlowUtil extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     ImageProvider<Object> myProfile = const AssetImage("assets/my-profile.jpg");
+
     return AvatarGlow(
       animate: true,
       glowColor: kPrimaryColor,
@@ -24,16 +25,23 @@ class AvatarCircleGlowUtil extends StatelessWidget {
       glowRadiusFactor: device == DeviceEnum.DESKTOP
           ? (screenWidth < 1700 ? .15 : .20)
           : device == DeviceEnum.MOBILE
-              ? 160
-              : 120.0 * 1.3,
-      child: Container(
-        decoration: BoxDecoration(
-          shape: BoxShape.circle,
-          image: DecorationImage(
-            image: myProfile,
-            fit: BoxFit.contain,
+              ? .2
+              : .4 * 1.3,
+      child: CircleAvatar(
+        radius: device == DeviceEnum.DESKTOP
+            ? (screenWidth * .099)
+            : device == DeviceEnum.MOBILE
+                ? 90
+                : 90 * 1.3,
+        backgroundColor: kPrimaryColor,
+        child: Container(
+          decoration: BoxDecoration(
+            shape: BoxShape.circle,
+            image: DecorationImage(
+              image: myProfile,
+              fit: BoxFit.contain,
+            ),
           ),
-          color: kBlackColor,
         ),
       ),
     );
