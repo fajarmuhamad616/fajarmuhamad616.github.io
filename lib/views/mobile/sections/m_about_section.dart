@@ -48,6 +48,7 @@ class MAboutSection extends StatelessWidget {
                             child: Text(
                               _aboutController.aboutMe,
                               style: kNormalTextStyleGrey,
+                              textAlign: TextAlign.justify,
                             ),
                           ),
                         ],
@@ -63,6 +64,7 @@ class MAboutSection extends StatelessWidget {
                       child: Text(
                         texts.about.about_me,
                         style: kNormalTextStyleGrey,
+                        textAlign: TextAlign.justify,
                       ),
                     ),
                     AboutCard(model: _aboutController.aboutCardModel(0)),

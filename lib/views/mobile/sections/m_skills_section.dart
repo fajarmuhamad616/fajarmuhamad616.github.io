@@ -33,6 +33,7 @@ class MSkillsSection extends StatelessWidget {
             ),
             itemCount: _skillController.skills.length,
             shrinkWrap: true,
+            physics: const NeverScrollableScrollPhysics(),
           ),
         ],
       ),

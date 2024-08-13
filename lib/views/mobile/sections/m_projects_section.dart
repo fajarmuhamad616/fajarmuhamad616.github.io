@@ -110,6 +110,7 @@ class _MProjectsSectionState extends State<MProjectsSection> {
                           .toList()
                           .length,
                   shrinkWrap: true,
+                  physics: const NeverScrollableScrollPhysics(),
                 ),
         ],
       ),

@@ -9,7 +9,10 @@ import 'package:material_design_icons_flutter/material_design_icons_flutter.dart
 class MProjectSingleCard extends StatelessWidget {
   final ProjectModel project;
 
-  const MProjectSingleCard({super.key, required this.project});
+  const MProjectSingleCard({
+    super.key,
+    required this.project,
+  });
 
   @override
   Widget build(BuildContext context) {

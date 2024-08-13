@@ -137,65 +137,38 @@ class _MobileBodyState extends State<MobileBody> {
                       ),
                     ),
                     Expanded(
-                      child: SingleChildScrollView(
-                        child: Column(
-                          children: [
-                            MHoverContainer(
-                              child: TextHoverNavigationTopUtil(
-                                text: texts.tabs.tabs[0],
-                              ),
-                              onClick: () {
-                                _scrollToItem(mHomeKey);
-                                Navigator.pop(context);
-                              },
+                      child: ListView.builder(
+                        itemCount: 6,
+                        itemBuilder: (context, index) {
+                          return MHoverContainer(
+                            child: TextHoverNavigationTopUtil(
+                              text: texts.tabs.tabs[index],
                             ),
-                            MHoverContainer(
-                              child: TextHoverNavigationTopUtil(
-                                text: texts.tabs.tabs[1],
-                              ),
-                              onClick: () {
-                                _scrollToItem(mAboutKey);
-                                Navigator.pop(context);
-                              },
-                            ),
-                            MHoverContainer(
-                              child: TextHoverNavigationTopUtil(
-                                text: texts.tabs.tabs[2],
-                              ),
-                              onClick: () {
-                                _scrollToItem(mSkillsKey);
-                                Navigator.pop(context);
-                              },
-                            ),
-                            MHoverContainer(
-                              child: TextHoverNavigationTopUtil(
-                                text: texts.tabs.tabs[3],
-                              ),
-                              onClick: () {
-                                _scrollToItem(mExperienceKey);
-                                Navigator.pop(context);
-                              },
-                            ),
-                            MHoverContainer(
-                              child: TextHoverNavigationTopUtil(
-                                text: texts.tabs.tabs[4],
-                              ),
-                              onClick: () {
-                                _scrollToItem(mProjectKey);
-                                Navigator.pop(context);
-                              },
-                            ),
-                            MHoverContainer(
-                              child: TextHoverNavigationTopUtil(
-                                text: texts.tabs.tabs[5],
-                              ),
-                              onClick: () {
-                                _scrollToItem(mContactKey);
-                                Navigator.pop(context);
-                              },
-                            ),
-                          ],
-                        ),
+                            onClick: () {
+                              switch (index) {
+                                case 0:
+                                  _scrollToItem(mHomeKey);
+                                  break;
+                                case 1:
+                                  _scrollToItem(mAboutKey);
+                                  break;
+                                case 2:
+                                  _scrollToItem(mSkillsKey);
+                                  break;
+                                case 3:
+                                  _scrollToItem(mExperienceKey);
+                                  break;
+                                case 4:
+                                  _scrollToItem(mProjectKey);
+                                  break;
+                                case 5:
+                                  _scrollToItem(mContactKey);
+                                  break;
+                              }
+                              Navigator.pop(context);
+                            },
+                          );
+                        },
                       ),
                     ),
                   ],
@@ -230,19 +203,28 @@ class _MobileBodyState extends State<MobileBody> {
       body: Stack(
         clipBehavior: Clip.none,
         children: [
-          SingleChildScrollView(
+          ListView.builder(
             controller: _scrollController,
-            child: Column(
-              children: [
-                MHomeSection(key: mHomeKey),
-                MAboutSection(key: mAboutKey),
-                MSkillsSection(key: mSkillsKey),
-                MProfessionalExperienceSection(key: mExperienceKey),
-                MProjectsSection(key: mProjectKey),
-                MContactSection(key: mContactKey),
-                const MFooterSection(),
-              ],
-            ),
+            itemCount: 7,
+            itemBuilder: (context, index) {
+              switch (index) {
+                case 0:
+                  return MHomeSection(key: mHomeKey);
+                case 1:
+                  return MAboutSection(key: mAboutKey);
+                case 2:
+                  return MSkillsSection(key: mSkillsKey);
+                case 3:
+                  return MProfessionalExperienceSection(key: mExperienceKey);
+                case 4:
+                  return MProjectsSection(key: mProjectKey);
+                case 5:
+                  return MContactSection(key: mContactKey);
+                case 6:
+                  return const MFooterSection();
+              }
+              return null;
+            },
           ),
           _mTopNavigationBar(),
         ],
