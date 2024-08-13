@@ -3,7 +3,7 @@ import 'package:fajaralhijr_github_io/locale/locale.g.dart';
 import 'package:fajaralhijr_github_io/values/colors.dart';
 import 'package:fajaralhijr_github_io/values/styles.dart';
 import 'package:fajaralhijr_github_io/widgets/avatar_circle_glow.dart';
-import 'package:fajaralhijr_github_io/enum/device_enum.dart';
+import 'package:fajaralhijr_github_io/enum/device.dart';
 import 'package:fajaralhijr_github_io/views/desktop/widgets/custom_button.dart';
 import 'package:fajaralhijr_github_io/views/desktop/widgets/icon_home_hover.dart';
 import 'package:flutter/material.dart';
@@ -50,7 +50,7 @@ class _HomeSectionState extends State<HomeSection> {
                       style: kTitleNameTextStyle,
                     ),
                     AnimatedTextKit(
-                      repeatForever: false,
+                      repeatForever: true,
                       totalRepeatCount: 1,
                       animatedTexts: [
                         ColorizeAnimatedText(
@@ -166,7 +166,7 @@ class _HomeSectionState extends State<HomeSection> {
               padding: const EdgeInsets.all(70),
               child: AvatarCircleGlow(
                 screenWidth: _screenWidth,
-                device: DeviceEnum.DESKTOP,
+                device: Device.desktop,
               ),
             ),
           )

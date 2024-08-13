@@ -6,7 +6,12 @@ import 'package:fajaralhijr_github_io/utils/external_app_util.dart';
 import 'package:fajaralhijr_github_io/values/colors.dart';
 import 'package:fajaralhijr_github_io/values/strings.dart';
 import 'package:fajaralhijr_github_io/values/styles.dart';
+import 'package:fajaralhijr_github_io/views/mobile/sections/m_about_section.dart';
+import 'package:fajaralhijr_github_io/views/mobile/sections/m_contact_section.dart';
 import 'package:fajaralhijr_github_io/views/mobile/sections/m_home_section.dart';
+import 'package:fajaralhijr_github_io/views/mobile/sections/m_professional_experience_section.dart';
+import 'package:fajaralhijr_github_io/views/mobile/sections/m_skills_section.dart';
+import 'package:fajaralhijr_github_io/views/mobile/widgets/m_hover_container.dart';
 import 'package:fajaralhijr_github_io/widgets/custom_button_locale.dart';
 import 'package:fajaralhijr_github_io/widgets/text_hover_navigation_top.dart';
 import 'package:fajaralhijr_github_io/views/mobile/sections/m_footer_section.dart';
@@ -131,6 +136,68 @@ class _MobileBodyState extends State<MobileBody> {
                         ],
                       ),
                     ),
+                    Expanded(
+                      child: SingleChildScrollView(
+                        child: Column(
+                          children: [
+                            MHoverContainer(
+                              child: TextHoverNavigationTopUtil(
+                                text: texts.tabs.tabs[0],
+                              ),
+                              onClick: () {
+                                _scrollToItem(mHomeKey);
+                                Navigator.pop(context);
+                              },
+                            ),
+                            MHoverContainer(
+                              child: TextHoverNavigationTopUtil(
+                                text: texts.tabs.tabs[1],
+                              ),
+                              onClick: () {
+                                _scrollToItem(mAboutKey);
+                                Navigator.pop(context);
+                              },
+                            ),
+                            MHoverContainer(
+                              child: TextHoverNavigationTopUtil(
+                                text: texts.tabs.tabs[2],
+                              ),
+                              onClick: () {
+                                _scrollToItem(mSkillsKey);
+                                Navigator.pop(context);
+                              },
+                            ),
+                            MHoverContainer(
+                              child: TextHoverNavigationTopUtil(
+                                text: texts.tabs.tabs[3],
+                              ),
+                              onClick: () {
+                                _scrollToItem(mExperienceKey);
+                                Navigator.pop(context);
+                              },
+                            ),
+                            MHoverContainer(
+                              child: TextHoverNavigationTopUtil(
+                                text: texts.tabs.tabs[4],
+                              ),
+                              onClick: () {
+                                _scrollToItem(mProjectKey);
+                                Navigator.pop(context);
+                              },
+                            ),
+                            MHoverContainer(
+                              child: TextHoverNavigationTopUtil(
+                                text: texts.tabs.tabs[5],
+                              ),
+                              onClick: () {
+                                _scrollToItem(mContactKey);
+                                Navigator.pop(context);
+                              },
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),
@@ -167,10 +234,12 @@ class _MobileBodyState extends State<MobileBody> {
             controller: _scrollController,
             child: Column(
               children: [
-                MHomeSection(
-                  key: mHomeKey,
-                ),
+                MHomeSection(key: mHomeKey),
+                MAboutSection(key: mAboutKey),
+                MSkillsSection(key: mSkillsKey),
+                MProfessionalExperienceSection(key: mExperienceKey),
                 MProjectsSection(key: mProjectKey),
+                MContactSection(key: mContactKey),
                 const MFooterSection(),
               ],
             ),

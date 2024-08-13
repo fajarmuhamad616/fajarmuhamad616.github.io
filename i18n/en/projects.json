@@ -1,6 +1,21 @@
 {
     "projects": [
       {
+        "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/portfolio.png",
+        "description": "Website for personal branding portfolio",
+        "external_link": "https://fajarmuhamad616.github.io/",
+        "github_link": "",
+        "images": [],
+        "is_personal": "true",
+        "name" : "Portfolio Fajar Muhammad Al-Hijri",
+        "playstore_link": "",
+        "tech": [
+          "Dart",
+          "Flutter"
+        ],
+        "type": "Websites"
+      },
+      {
         "cover_img": "https://raw.githubusercontent.com/fajarmuhamad616/fajaralhijr.github.io/main/media/images/confidential.png",
         "description": "Gateway for Sabre",
         "external_link": "https://www.travelagent.co.id/",

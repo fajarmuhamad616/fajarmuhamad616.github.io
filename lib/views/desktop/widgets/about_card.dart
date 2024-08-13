@@ -49,12 +49,11 @@ class _AboutCardState extends State<AboutCard> {
             ],
           ),
           const SizedBox(height: 10),
-          Expanded(
+          Flexible(
             child: Text(
               widget.model.content,
-              overflow: TextOverflow.ellipsis,
+              overflow: TextOverflow.visible,
               softWrap: true,
-              maxLines: 3,
               style: kNormalTextStyleGrey,
             ),
           ),

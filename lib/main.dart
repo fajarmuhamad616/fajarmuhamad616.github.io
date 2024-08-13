@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Fajar Muhammad Al-Hijri | Software Engineer',
       theme: ThemeData(
         fontFamily: GoogleFonts.montserrat().fontFamily,

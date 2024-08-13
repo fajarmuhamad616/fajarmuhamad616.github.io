@@ -1,5 +1,5 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
-import 'package:fajaralhijr_github_io/enum/device_enum.dart';
+import 'package:fajaralhijr_github_io/enum/device.dart';
 import 'package:fajaralhijr_github_io/locale/locale.g.dart';
 import 'package:fajaralhijr_github_io/services/message_service.dart';
 import 'package:fajaralhijr_github_io/values/colors.dart';
@@ -37,7 +37,7 @@ class _MHomeSectionState extends State<MHomeSection> {
             padding: const EdgeInsets.all(10),
             child: const AvatarCircleGlow(
               screenWidth: 0,
-              device: DeviceEnum.MOBILE,
+              device: Device.mobile,
             ),
           ),
           Column(
