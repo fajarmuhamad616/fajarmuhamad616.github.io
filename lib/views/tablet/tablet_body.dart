@@ -73,7 +73,6 @@ class _TabletBodyState extends State<TabletBody> {
         children: [
           SingleChildScrollView(
             controller: _scrollController,
-            physics: const NeverScrollableScrollPhysics(),
             child: Column(
               children: [
                 THomeSection(
