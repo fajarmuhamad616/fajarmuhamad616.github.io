@@ -29,6 +29,7 @@ class TProjectSection extends StatelessWidget {
                 ? 0
                 : _projectController.projects.length,
             shrinkWrap: true,
+            physics: const NeverScrollableScrollPhysics(),
           ),
           const SizedBox(
             height: 20.0,

@@ -18,6 +18,12 @@ class _TSkillCardState extends State<TSkillCard> {
   double height = 0.0;
 
   @override
+  void initState() {
+    height = widget.size;
+    super.initState();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
