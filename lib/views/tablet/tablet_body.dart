@@ -3,7 +3,9 @@ import 'package:country_flags/country_flags.dart';
 import 'package:fajaralhijr_github_io/controllers/navigation_top_controller.dart';
 import 'package:fajaralhijr_github_io/locale/locale.g.dart';
 import 'package:fajaralhijr_github_io/services/message_service.dart';
+import 'package:fajaralhijr_github_io/utils/external_app_util.dart';
 import 'package:fajaralhijr_github_io/values/colors.dart';
+import 'package:fajaralhijr_github_io/values/strings.dart';
 import 'package:fajaralhijr_github_io/values/styles.dart';
 import 'package:fajaralhijr_github_io/views/desktop/widgets/custom_button.dart';
 import 'package:fajaralhijr_github_io/views/tablet/sections/t_about_section.dart';
@@ -68,6 +70,18 @@ class _TabletBodyState extends State<TabletBody> {
   Widget build(BuildContext context) {
     double _screenWidth = MediaQuery.of(context).size.width;
     return Scaffold(
+      floatingActionButton: FloatingActionButton.extended(
+        backgroundColor: kPrimaryColor,
+        onPressed: () async {
+          ExternalAppUtil.redirectToLink(url: linkWhatsApp);
+        },
+        label: Text("Chat ${name.split(" ").first}"),
+        icon: Icon(
+          MdiIcons.whatsapp,
+          size: 30,
+          color: kLightColor,
+        ),
+      ),
       body: Stack(
         clipBehavior: Clip.none,
         children: [

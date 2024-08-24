@@ -28,7 +28,7 @@ class TSkillSection extends StatelessWidget {
             ),
             itemBuilder: (context, index) => TSkillCard(
               skill: _skillController.skills[index],
-              size: MediaQuery.of(context).size.height / 4,
+              size: MediaQuery.of(context).size.height / 6,
             ),
             itemCount: _skillController.skills.length,
             shrinkWrap: true,
