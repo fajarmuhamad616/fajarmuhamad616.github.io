@@ -6,7 +6,7 @@
 /// Locales: 2
 /// Strings: 694 (347 per locale)
 ///
-/// Built on 2024-08-13 at 02:39 UTC
+/// Built on 2024-08-26 at 17:31 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -394,7 +394,7 @@ class _LocaleExperience$experiences$0i1$Id {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get company => 'PT Informasi Teknologi Indonesia (Jatis Mobile)';
+	String get company => 'PT Informasi Teknologi Indonesia';
 	String get country => 'Indonesia';
 	String get emp_type => 'Magang';
 	String get position => 'Web Developer (Remote)';
@@ -1371,7 +1371,7 @@ class _LocaleExperience$experiences$0i1$En implements _LocaleExperience$experien
 	@override final _LocaleEn _root; // ignore: unused_field
 
 	// Translations
-	@override String get company => 'PT Informasi Teknologi Indonesia (Jatis Mobile)';
+	@override String get company => 'PT Informasi Teknologi Indonesia';
 	@override String get country => 'Indonesia';
 	@override String get emp_type => 'Internship';
 	@override String get position => 'Web Developer (Remote)';
@@ -2112,7 +2112,7 @@ extension on Translations {
 			case 'experience.experiences.0.works.6': return 'Pengembangan dan implementasi fitur ketersediaan, tarif, pemesanan, pembatalan, pengambilan tambahan, pembayaran, cetak tiket, saldo gateway API maskapai penerbangan internasional dan domestik (maskapai penerbangan TransNusa, Singapore Airlines, dan Sabre) dengan transformasi XML ke JSON, termasuk API versi NDC (New Distribution Capability) hingga UAT (User Acceptance Testing).';
 			case 'experience.experiences.0.works.7': return 'Pengembangan API logger untuk mengambil log masuk (inbound) dan log keluar (outbound) gateway API 8B (TransNusa Airlines), SQ (Singapore Airlines), JT (Lion Airlines), JQ (Jetstar Airlines), dan Sabre.';
 			case 'experience.experiences.0.is_work_here': return 'false';
-			case 'experience.experiences.1.company': return 'PT Informasi Teknologi Indonesia (Jatis Mobile)';
+			case 'experience.experiences.1.company': return 'PT Informasi Teknologi Indonesia';
 			case 'experience.experiences.1.country': return 'Indonesia';
 			case 'experience.experiences.1.emp_type': return 'Magang';
 			case 'experience.experiences.1.position': return 'Web Developer (Remote)';
@@ -2467,7 +2467,7 @@ extension on _LocaleEn {
 			case 'experience.experiences.0.works.6': return 'Development and implementation feature availability, fare, booking, cancel, retrieve ancillary, payment, print ticket, balance of international and domestic airlines API gateway (TransNusa airlines, Singapore airlines, and Sabre) with transformation XML to JSON, include API version NDC (New Distribution Capability) until UAT (User Acceptance Testing).';
 			case 'experience.experiences.0.works.7': return 'Development an API logger to taking incoming log (inbound) and outgoing log (outbound) API gateway 8B (TransNusa Airlines), SQ (Singapore Airlines), JT (Lion Airlines), JQ (Jetstar Airlines), and Sabre.';
 			case 'experience.experiences.0.is_work_here': return 'false';
-			case 'experience.experiences.1.company': return 'PT Informasi Teknologi Indonesia (Jatis Mobile)';
+			case 'experience.experiences.1.company': return 'PT Informasi Teknologi Indonesia';
 			case 'experience.experiences.1.country': return 'Indonesia';
 			case 'experience.experiences.1.emp_type': return 'Internship';
 			case 'experience.experiences.1.position': return 'Web Developer (Remote)';

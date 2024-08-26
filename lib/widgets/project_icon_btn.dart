@@ -7,20 +7,18 @@ class ProjectIconBtn extends StatelessWidget {
   final IconData icon;
   final String link;
   final double? padding;
-  final bool isTablet;
 
   const ProjectIconBtn({
     super.key,
     required this.icon,
     required this.link,
     this.padding,
-    bool? isTablet,
-  }) : isTablet = isTablet ?? false;
+  });
 
   @override
   Widget build(BuildContext context) {
     return Visibility(
-      visible: isTablet ? true : link.isNotEmpty,
+      visible: link.isNotEmpty,
       child: IconHoverUtil(
         icon: icon,
         color: kPrimaryColor,

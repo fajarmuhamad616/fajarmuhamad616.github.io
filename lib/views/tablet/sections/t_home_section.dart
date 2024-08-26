@@ -45,7 +45,9 @@ class _THomeSectionState extends State<THomeSection> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Row(
+                    Column(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
                           texts.general.hi_home_section,
@@ -84,6 +86,7 @@ class _THomeSectionState extends State<THomeSection> {
                               "Software",
                               speed: const Duration(milliseconds: 200),
                               textStyle: kTitleTextStyle.copyWith(
+                                fontSize: 33.0,
                                 color: Colors.green,
                                 shadows: [
                                   Shadow(
@@ -97,6 +100,7 @@ class _THomeSectionState extends State<THomeSection> {
                               "Java",
                               speed: const Duration(milliseconds: 200),
                               textStyle: kTitleTextStyle.copyWith(
+                                fontSize: 33.0,
                                 color: Colors.red,
                                 shadows: [
                                   Shadow(
@@ -110,6 +114,7 @@ class _THomeSectionState extends State<THomeSection> {
                               "Flutter",
                               speed: const Duration(milliseconds: 200),
                               textStyle: kTitleTextStyle.copyWith(
+                                fontSize: 33.0,
                                 color: Colors.blue,
                                 shadows: [
                                   Shadow(

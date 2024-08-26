@@ -1,6 +1,5 @@
 import 'package:fajaralhijr_github_io/controllers/projects_controller.dart';
 import 'package:fajaralhijr_github_io/locale/locale.g.dart';
-import 'package:fajaralhijr_github_io/values/colors.dart';
 import 'package:fajaralhijr_github_io/views/tablet/widgets/t_project_card.dart';
 import 'package:fajaralhijr_github_io/widgets/title_section.dart';
 import 'package:flutter/material.dart';
@@ -14,7 +13,6 @@ class TProjectSection extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 90.0, vertical: 50.0),
       width: double.infinity,
-      color: kDarkColor,
       child: Column(
         children: [
           TitleSection(

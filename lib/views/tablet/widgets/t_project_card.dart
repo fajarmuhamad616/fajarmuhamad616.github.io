@@ -40,7 +40,6 @@ class _TProjectCardState extends State<TProjectCard> {
                   height: 300,
                   width: double.infinity,
                   child: Stack(
-                    //alignment: Alignment.centerLeft,
                     children: [
                       Positioned(
                         child: AnimatedContainer(
@@ -136,6 +135,7 @@ class _TProjectCardState extends State<TProjectCard> {
             margin: const EdgeInsets.symmetric(vertical: 10),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(6.0),
+              color: kPrimaryColor,
               image: DecorationImage(
                 image: NetworkImage(widget.project.cover),
                 fit: BoxFit.cover,
@@ -144,7 +144,7 @@ class _TProjectCardState extends State<TProjectCard> {
             child: Align(
               alignment: Alignment.topRight,
               child: Container(
-                width: 200,
+                width: 300,
                 decoration: BoxDecoration(
                   backgroundBlendMode: BlendMode.srcOver,
                   color: Colors.black.withOpacity(.4),
@@ -195,17 +195,17 @@ class _TProjectCardState extends State<TProjectCard> {
                       width: double.infinity,
                       height: 60,
                       child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           ProjectIconBtn(
-                              icon: MdiIcons.github,
-                              link: widget.project.githubLink,
-                              isTablet: true),
+                            icon: MdiIcons.github,
+                            link: widget.project.githubLink,
+                          ),
                           ProjectIconBtn(
-                              icon: MdiIcons.link,
-                              link: widget.project.externalLink,
-                              isTablet: true),
+                            icon: MdiIcons.link,
+                            link: widget.project.externalLink,
+                          ),
                         ],
                       ),
                     ),
